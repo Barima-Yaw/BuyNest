@@ -43,11 +43,9 @@
 
         <!-- Navbar elements -->
         <nav class="dropdown">
-          <a href="../index.html" class="home list-item">
-              Home
-          </a>
+          <a href="../index.html" class="home list-item"> Home </a>
           <a href="../Html/about.html" class="list-item about">About</a>
-          <div class="pages">
+          <!-- <div class="pages">
             <button class="list-item">
               Pages <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </button>
@@ -81,9 +79,11 @@
               <li><a href="../Html/wishlist.html">Wishlist</a></li>
               <li><a href="../Html/checkout.html">Checkout</a></li>
             </ul>
-          </div>
+          </div> -->
           <a href="../Html/special.html" class="list-item special">Special</a>
-          <a href="../Html/contacts.html" class="list-item contacts">Contacts</a>
+          <a href="../Html/contacts.html" class="list-item contacts"
+            >Contacts</a
+          >
         </nav>
         <!-- Navbar End  -->
 
@@ -94,7 +94,7 @@
             Cart
           </a>
           <a href="../Html/wishlist.html">
-            <i class="fas fa-shopping-basket"></i>
+            <i class="far fa-heart"></i>
             Wishlist
           </a>
           <a href="../Html/account.html">
@@ -106,9 +106,9 @@
       <!-- Icons end  -->
 
       <!-- Search, Inventory and Extras  -->
-      <section class="second-bar" id="top">
-        <div>
-          <!-- <div class="inventory">
+      <!-- <section class="second-bar" id="top">
+        <div> -->
+      <!-- <div class="inventory">
             <button id="inventory">
               <i class="fas fa-ellipsis-v"></i>
               Inventory<i class="fa fa-chevron-down" aria-hidden="true"></i>
@@ -307,8 +307,8 @@
               <li><a href="#">TV Sticks</a></li>
             </ul>
           </div> -->
-          <!-- <div class="divide"></div> -->
-          <div class="search-box">
+      <!-- <div class="divide"></div> -->
+      <!-- <div class="search-box">
             <input
               class="search-input"
               id="categories"
@@ -332,8 +332,8 @@
               <option>Underwear & Sleepwear</option>
             </select>
             <button><i class="fas fa-search"></i></button>
-          </div>
-          <!-- <div class="divide"></div>
+          </div> -->
+      <!-- <div class="divide"></div>
           <div class="extras">
             <button class="currency">
               <div class="icon">
@@ -349,7 +349,7 @@
             </button>
             <a href="#"><i class="far fa-question-circle"></i> Help</a>
           </div> -->
-      </section>
+      <!-- </section> -->
       <!-- Search, Inventory and Extras end -->
 
       <!-- Back to top button  -->
@@ -363,10 +363,10 @@
     <main>
       <!-- Contact cards  -->
       <section class="main">
-        <h1>My Account</h1>
+        <!-- <h1>My Account</h1> -->
         <div class="fill-in">
           <div class="wrap">
-            <h2>Login/Register</h2>
+            <h2>Login</h2>
             <h4>Welcome to BuyNest</h4>
             <a href="#"><i class="fab fa-google"></i> Google</a>
             <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
@@ -400,20 +400,20 @@
       <!-- Contact cards end -->
     </main>
 
-    <footer>
-      <div class="subscribe">
+    <footer id="footer">
+      <!-- <div class="subscribe">
         <h3>Subscribe Now</h3>
         <div class="subscribe-field">
           <input type="email" placeholder="Enter email address" />
           <a href="#">Subscribe</a>
         </div>
-      </div>
+      </div> -->
       <div class="more">
         <div class="row justify-content-between">
           <div class="col-lg-4 col-md-6">
             <div class="footer-widget mb-50">
               <div class="footer-logo mb-30">
-                <a href="index.html"
+                <a href="../index.html"
                   ><img src="../Images/logo/IMG_7328 - Copy1.heic" alt=""
                 /></a>
               </div>
@@ -438,11 +438,15 @@
                 <h5>Customer Service</h5>
               </div>
               <div class="fw-link">
-                <li><a href="#">Help Center</a></li>
-                <li><a href="#">Returns</a></li>
-                <li><a href="#">Product Recalls</a></li>
-                <li><a href="#">Accessibility</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="../Html/contacts.html">Help Center</a></li>
+                <li><a href="../Html/terms and conditions.html">Returns</a></li>
+                <li>
+                  <a href="../Html/terms and conditions.html"
+                    >Product Recalls</a
+                  >
+                </li>
+                <li><a href="../Html/about.html">Accessibility</a></li>
+                <li><a href="../Html/contacts.html">Contact Us</a></li>
               </div>
             </div>
           </div>
@@ -452,11 +456,17 @@
                 <h5>Quick Links</h5>
               </div>
               <div class="fw-link">
-                <li><a href="#">Return Policy</a></li>
-                <li><a href="#">Terms Of Use</a></li>
-                <li><a href="#">Security</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Store Pickup</a></li>
+                <li>
+                  <a href="../Html/terms and conditions.html">Return Policy</a>
+                </li>
+                <li>
+                  <a href="../Html/terms and conditions.html">Terms Of Use</a>
+                </li>
+                <li>
+                  <a href="../Html/terms and conditions.html">Security</a>
+                </li>
+                <li><a href="../Html/terms and conditions.html">Privacy</a></li>
+                <li><a href="../Html/about.html">Store Pickup</a></li>
               </div>
             </div>
           </div>
@@ -494,14 +504,14 @@
               <div class="col-lg-6 col-md-6 text">
                 <div class="copyright-text">
                   <p>
-                    Copyright © 2021 <a href="#">BuyNest</a> All Rights
-                    Reserved.
+                    Copyright © 2021 <a href="../index.html">BuyNest</a> All
+                    Rights Reserved.
                   </p>
                 </div>
               </div>
               <div class="col-lg-6 col-md-6 d-none d-md-block">
                 <div class="payment-method-img text-right">
-                  <img src="../Images/logo/IMG_7328 - Copy1.heic" alt="img" />
+                  <img src="../Images/images/card_img.png" alt="img" />
                 </div>
               </div>
             </div>
@@ -509,7 +519,6 @@
         </div>
       </div>
     </footer>
-
     <script src="../Js/main.js"></script>
     <!-- Bootstrap Script -->
 

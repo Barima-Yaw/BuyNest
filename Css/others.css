@@ -1,4 +1,5 @@
 body {
+  min-width: 100vh;
   position: relative;
 }
 
@@ -31,21 +32,20 @@ body .top-btn:hover {
   color: #f5f5f5;
 }
 
-main {
-  width: 100vh;
-  position: relative;
+body main {
+  margin-top: 10vh;
 }
 
-main .new {
+body main .new {
   text-align: center;
 }
 
-main .new h1 {
+body main .new h1 {
   font-size: 4rem;
-  margin: 3rem 0 0 0;
+  margin: 0;
 }
 
-main .new a {
+body main .new a {
   padding: 0.2rem 0.3rem;
   margin-bottom: 3rem;
   color: #048a10;
@@ -56,12 +56,12 @@ main .new a {
   transition: 0.4s ease-in-out;
 }
 
-main .new a:hover {
+body main .new a:hover {
   color: #f5f5f5;
   background: #048a10;
 }
 
-main .new .order {
+body main .new .order {
   width: 60%;
   margin: 4rem auto 1rem auto;
   padding: 3rem;
@@ -83,23 +83,23 @@ main .new .order {
   border: 1px solid #dddddd;
 }
 
-main .new .order h2 {
+body main .new .order h2 {
   font-size: 2.5rem;
   margin: 1rem auto;
 }
 
-main .new .order img {
+body main .new .order img {
   height: 7rem;
   margin: 1rem;
 }
 
-main .new .order p {
+body main .new .order p {
   line-height: 2;
   color: white;
   margin: 1rem;
 }
 
-main .new .order > a {
+body main .new .order > a {
   margin-top: 1rem;
   background: #048a10;
   color: #f5f5f5;
@@ -107,25 +107,25 @@ main .new .order > a {
   padding: 0.5rem 1rem;
 }
 
-main .new .order > a:hover {
+body main .new .order > a:hover {
   background: #262726;
 }
 
-main .new .order span {
+body main .new .order span {
   text-transform: uppercase;
   text-decoration: underline;
 }
 
-main .new .order span a {
+body main .new .order span a {
   color: white;
 }
 
-main .new .order span a:hover {
+body main .new .order span a:hover {
   background: transparent;
   color: #262726;
 }
 
-main .cart {
+body main .cart {
   /*Cart Start*/
   display: -webkit-box;
   display: -ms-flexbox;
@@ -136,18 +136,17 @@ main .cart {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-right: 8rem;
-  min-height: 80vh;
+  min-height: 70vh;
   width: 100vw;
 }
 
-main .cart .table-box {
+body main .cart .table-box {
   width: 60vw;
   border: 1px solid #dddddd;
   padding: 1rem;
 }
 
-main .cart .table-box .wrap {
+body main .cart .table-box .wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,7 +159,7 @@ main .cart .table-box .wrap {
           align-items: center;
 }
 
-main .cart .table-box .wrap a {
+body main .cart .table-box .wrap a {
   padding: 0.5rem 1rem;
   margin: 0;
   text-transform: uppercase;
@@ -172,16 +171,16 @@ main .cart .table-box .wrap a {
   border-radius: 0.1rem;
 }
 
-main .cart .table-box .wrap a:hover {
+body main .cart .table-box .wrap a:hover {
   background: #262726;
 }
 
-main .cart .table-box .wrap .coupon {
+body main .cart .table-box .wrap .coupon {
   height: 2.5rem;
   margin: 1rem 0;
 }
 
-main .cart .table-box .wrap .coupon input {
+body main .cart .table-box .wrap .coupon input {
   height: 100%;
   outline: none;
   width: 20rem;
@@ -190,57 +189,57 @@ main .cart .table-box .wrap .coupon input {
   padding: 0 0.5rem;
 }
 
-main .cart .table-box th {
+body main .cart .table-box th {
   color: #858282;
 }
 
-main .cart .table-box th a {
+body main .cart .table-box th a {
   text-decoration: none;
 }
 
-main .cart .table-box th a i {
+body main .cart .table-box th a i {
   color: #858282;
   font-size: 1rem;
 }
 
-main .cart .table-box th a i:hover {
+body main .cart .table-box th a i:hover {
   color: #f5f5f5;
 }
 
-main .cart .table-box td {
+body main .cart .table-box td {
   text-align: left;
   color: #858282;
   vertical-align: middle;
   max-width: 15rem;
 }
 
-main .cart .table-box td h5 {
+body main .cart .table-box td h5 {
   font-weight: bold;
   padding: 0;
 }
 
-main .cart .table-box td h5:hover {
+body main .cart .table-box td h5:hover {
   color: #048a10;
 }
 
-main .cart .table-box td p {
+body main .cart .table-box td p {
   padding: 0;
   width: 100%;
 }
 
-main .cart .table-box td span {
+body main .cart .table-box td span {
   font-size: 0.8rem;
   color: #262726;
   padding: 0;
 }
 
-main .cart .table-box td .price {
+body main .cart .table-box td .price {
   font-size: 1rem;
   font-weight: bold;
   color: #048a10;
 }
 
-main .cart .table-box td .add {
+body main .cart .table-box td .add {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -253,18 +252,18 @@ main .cart .table-box td .add {
           align-items: center;
 }
 
-main .cart .table-box td .add p {
+body main .cart .table-box td .add p {
   font-size: 0.8rem;
   display: block;
 }
 
-main .cart .table-box td .add a {
+body main .cart .table-box td .add a {
   border: 1px solid #048a10;
   border-radius: 0.1rem;
   color: #858282;
 }
 
-main .cart .slip {
+body main .cart .slip {
   width: 25vw;
   height: 58vh;
   background: url(../Images/bg/cart_sidebar_bg.png);
@@ -272,7 +271,7 @@ main .cart .slip {
   padding: 1rem;
 }
 
-main .cart .slip h3 {
+body main .cart .slip h3 {
   margin: 1rem 0;
   text-align: left;
   font-size: 2rem;
@@ -280,7 +279,7 @@ main .cart .slip h3 {
   border-bottom: 1px dotted #dddddd;
 }
 
-main .cart .slip ul {
+body main .cart .slip ul {
   margin: 1rem 0;
   list-style: none;
   text-align: left;
@@ -295,7 +294,7 @@ main .cart .slip ul {
   border-bottom: 1px dotted #dddddd;
 }
 
-main .cart .slip ul li {
+body main .cart .slip ul li {
   width: 100%;
   margin: 0.5rem 0;
   font-weight: 500;
@@ -308,7 +307,7 @@ main .cart .slip ul li {
   text-transform: uppercase;
 }
 
-main .cart .slip ul li span {
+body main .cart .slip ul li span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -319,16 +318,16 @@ main .cart .slip ul li span {
   width: 50%;
 }
 
-main .cart .slip ul li span .group {
+body main .cart .slip ul li span .group {
   margin: 0.5rem 0;
 }
 
-main .cart .slip ul li span .group label {
+body main .cart .slip ul li span .group label {
   font-weight: normal;
   text-transform: uppercase;
 }
 
-main .cart .slip p {
+body main .cart .slip p {
   width: 100%;
   margin: 0.5rem 0;
   font-weight: 500;
@@ -347,7 +346,7 @@ main .cart .slip p {
   border-bottom: 1px dotted #dddddd;
 }
 
-main .cart .slip p span {
+body main .cart .slip p span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -355,7 +354,7 @@ main .cart .slip p span {
   font-size: 1.5rem;
 }
 
-main .cart .slip a {
+body main .cart .slip a {
   border: 1px solid #048a10;
   padding: 0.5rem 1rem;
   -webkit-box-shadow: 2px 2px 5px #a9aaa9;
@@ -365,415 +364,7 @@ main .cart .slip a {
   /*Cart styles end*/
 }
 
-main .special {
-  /*Special styles*/
-  height: 100vh;
-  background: #f5f5f5;
-  width: 100vw;
-  padding: 2rem;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-main .special img {
-  height: 35rem;
-  width: 45rem;
-  border-radius: 0.2rem;
-  -webkit-animation: slide-down 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-          animation: slide-down 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-main .special .welcome {
-  margin: 2rem;
-  -webkit-animation: slide-down 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-          animation: slide-down 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-main .special .welcome h3 {
-  font-size: 3.5rem;
-}
-
-main .special .welcome h2 {
-  font-size: 4.5rem;
-}
-
-main .special .welcome p {
-  color: #858282;
-  font-weight: 500;
-}
-
-main .special .welcome p span {
-  color: #048a10;
-}
-
-main .special .welcome a {
-  color: #f5f5f5;
-  text-decoration: none;
-  background: #048a10;
-  padding: 0.5rem 1rem;
-  text-transform: uppercase;
-  -webkit-transition: 0.4s ease;
-  transition: 0.4s ease;
-  border-radius: 0.1rem;
-  margin-top: 0.5rem;
-}
-
-main .special .welcome a:hover {
-  background: #262726;
-}
-
-main .more {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 3rem 1.5rem 3rem 0.5rem;
-  margin: 4rem 0;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 60vh;
-}
-
-main .more .display {
-  width: 31%;
-  height: 80%;
-  margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background: #858282;
-}
-
-main .more .display:hover img {
-  width: 90%;
-  height: 85%;
-}
-
-main .more .display img {
-  width: 100%;
-  height: 100%;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-}
-
-main .best-selling {
-  width: 100vw;
-  height: 100vh;
-  background: #f5f5f5;
-  text-align: center;
-  overflow: hidden;
-}
-
-main .best-selling h1 {
-  font-size: 4rem;
-  margin: 1rem auto;
-  position: relative;
-  display: inline-block;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-main .best-selling h1::after {
-  content: '';
-  margin: auto;
-  position: absolute;
-  bottom: -30%;
-  left: 35%;
-  width: 100%;
-  height: 30px;
-  background: url(/Images/images/title_shape.png) no-repeat;
-}
-
-main .best-selling .box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 2rem;
-  width: 100%;
-  height: 80%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 2rem 4rem;
-}
-
-main .best-selling .box .wrapper {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  width: 65%;
-  height: 100%;
-}
-
-main .best-selling .box .wrapper .plaq {
-  background: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  border: 1px solid #dddddd;
-}
-
-main .best-selling .box .wrapper .plaq img {
-  height: 70%;
-}
-
-main .best-selling .box .wrapper .plaq .content {
-  height: 90%;
-  width: 60%;
-  text-align: left;
-  padding: 0 0 0 1rem;
-}
-
-main .best-selling .box .wrapper .plaq .content h4 {
-  margin: 1rem 0;
-}
-
-main .best-selling .box .wrapper .plaq .content p {
-  margin: 0.2rem 0;
-  color: #858282;
-}
-
-main .best-selling .box .wrapper .plaq .content a {
-  color: #048a10;
-  font-size: 0.9rem;
-  text-decoration: none;
-  border: 1px solid #048a10;
-  padding: 0.2rem 0.5rem;
-  border-radius: 0.1rem;
-  -webkit-transition: 0.4s ease;
-  transition: 0.4s ease;
-}
-
-main .best-selling .box .wrapper .plaq .content a:hover {
-  color: #f5f5f5;
-  background: #048a10;
-}
-
-main .exclusives {
-  min-height: 100vh;
-  width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-main .exclusives h1 {
-  font-size: 4rem;
-  margin: 1rem auto;
-  position: relative;
-  display: inline-block;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-main .exclusives h1::after {
-  content: '';
-  margin: auto;
-  position: absolute;
-  bottom: -30%;
-  left: 35%;
-  width: 100%;
-  height: 30px;
-  background: url(/Images/images/title_shape.png) no-repeat;
-}
-
-main .exclusives ul {
-  margin: 3rem 0;
-  padding: 0.5rem;
-  background: #f5f5f5;
-  border-radius: 2rem;
-  -webkit-box-shadow: inset 1px 1px 2px #dddddd;
-          box-shadow: inset 1px 1px 2px #dddddd;
-}
-
-main .exclusives ul a {
-  text-decoration: none;
-  color: #262726;
-  font-weight: 500;
-  padding: 0.5rem 1rem;
-  margin: 0 1rem;
-  text-transform: uppercase;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-  border-radius: 1.2rem;
-  -webkit-box-shadow: 1px 1px 2px #dddddd;
-          box-shadow: 1px 1px 2px #dddddd;
-}
-
-main .exclusives ul a:hover {
-  background: #048a10;
-  color: #f5f5f5;
-}
-
-main .exclusives .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 2rem 0;
-}
-
-main .exclusives .container .products {
-  display: -ms-grid;
-  display: grid;
-  gap: 2rem;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: 1rem auto;
-}
-
-main .exclusives .container .products > div {
-  border: 1px solid #dddddd;
-  text-align: center;
-  padding: 1rem 0 0 0;
-  border-radius: 0.2rem;
-  -webkit-box-shadow: 1px 1px 5px #a9aaa9;
-          box-shadow: 1px 1px 5px #a9aaa9;
-  height: 25rem;
-  position: relative;
-}
-
-main .exclusives .container .products > div:hover .img-box img {
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-}
-
-main .exclusives .container .products > div:hover .img-box a {
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
-}
-
-main .exclusives .container .products > div .img-box {
-  position: relative;
-  margin: 0 0.5rem;
-}
-
-main .exclusives .container .products > div .img-box img {
-  border-radius: 0.2rem;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-}
-
-main .exclusives .container .products > div .img-box a {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  -webkit-transform: translate(-50%, 100%);
-          transform: translate(-50%, 100%);
-  background: #048a10;
-  color: #f5f5f5;
-  text-decoration: none;
-  border: 1px solid #048a10;
-  border-radius: 0.1rem;
-  padding: 0.4rem;
-  -webkit-transition: 0.5s ease 0.3s;
-  transition: 0.5s ease 0.3s;
-  width: 99%;
-  margin: 0 auto;
-  z-index: 1;
-}
-
-main .exclusives .container .products > div .img-box a:hover {
-  background: transparent;
-  color: #048a10;
-}
-
-main .exclusives .container .products > div .product-details {
-  position: relative;
-  padding: 1rem;
-}
-
-main .exclusives .container .products > div .product-details .rating {
-  position: absolute;
-  top: -0.5rem;
-  left: 0;
-  width: 100%;
-  margin: 0.5rem 0;
-  background: white;
-  padding: 1rem 0;
-  z-index: 100;
-}
-
-main .exclusives .container .products > div .product-details .rating a {
-  color: #f5f5f5;
-  background: #048a10;
-  text-decoration: none;
-  padding: 0.2rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  border-radius: 0.2rem;
-  -webkit-box-shadow: 1px 1px 3px #a9aaa9;
-          box-shadow: 1px 1px 3px #a9aaa9;
-}
-
-main .exclusives .container .products > div .product-details .rating del {
-  margin-left: 40%;
-  color: #858282;
-}
-
-main .exclusives .container .products > div .pricing {
-  position: absolute;
-  bottom: 0.5rem;
-  left: 0;
-  width: 100%;
-  padding: 0 1rem;
-  margin: auto;
-  color: #262726;
-  font-weight: 500;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-main .exclusives .container .products > div .pricing span {
-  color: #048a10;
-  margin-right: 0.2rem;
-  /*Special Styles End*/
-}
-
-main .billing {
+body main .billing {
   /*Checkout styles*/
   display: -webkit-box;
   display: -ms-flexbox;
@@ -781,16 +372,16 @@ main .billing {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   min-height: 100vh;
-  margin: 2rem 1rem;
+  margin: 1rem;
 }
 
-main .billing .main-form {
+body main .billing .main-form {
   min-height: 100vh;
-  width: 75vw;
+  width: 60vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -798,19 +389,19 @@ main .billing .main-form {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   text-align: left;
 }
 
-main .billing .main-form h3 {
+body main .billing .main-form h3 {
   margin: 1rem;
   text-align: left;
   font-size: 2rem;
 }
 
-main .billing .main-form form {
+body main .billing .main-form form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -818,24 +409,24 @@ main .billing .main-form form {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 80%;
+  width: 90%;
   border: 1px solid #858282;
   outline: 1px solid #858282;
-  outline-offset: -5px;
+  outline-offset: -4px;
   padding: 1.5rem;
 }
 
-main .billing .main-form form label {
+body main .billing .main-form form label {
   text-transform: uppercase;
   font-weight: 500;
   margin: 0.2rem 0;
 }
 
-main .billing .main-form form label small {
+body main .billing .main-form form label small {
   color: #858282;
 }
 
-main .billing .main-form form input {
+body main .billing .main-form form input {
   height: 2.5rem;
   background: #f5f5f5;
   outline: none;
@@ -845,7 +436,7 @@ main .billing .main-form form input {
           box-shadow: inset 1px 1px 2px #a9aaa9;
 }
 
-main .billing .main-form form .opt {
+body main .billing .main-form form .opt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -860,7 +451,7 @@ main .billing .main-form form .opt {
           box-shadow: 1px 1px 2px #a9aaa9;
 }
 
-main .billing .main-form form .opt select {
+body main .billing .main-form form .opt select {
   width: 100%;
   background: #f5f5f5;
   height: 2.8rem;
@@ -868,19 +459,20 @@ main .billing .main-form form .opt select {
   outline: none;
 }
 
-main .billing .main-form form .opt select option {
+body main .billing .main-form form .opt select option {
   padding: 1rem;
   color: #858282;
 }
 
-main .billing .main-form form .check {
+body main .billing .main-form form .check {
   height: 1rem;
   color: #048a10;
   -webkit-box-shadow: none;
           box-shadow: none;
+  margin-right: auto;
 }
 
-main .billing .main-form form textarea {
+body main .billing .main-form form textarea {
   background: #f5f5f5;
   outline: none;
   border-radius: 0.2rem;
@@ -891,15 +483,14 @@ main .billing .main-form form textarea {
           box-shadow: inset 1px 1px 2px #a9aaa9;
 }
 
-main .billing aside {
+body main .billing aside {
   background: url(../Images/bg/checkout_sidebar_bg.png);
   padding: 1rem;
   width: 25vw;
   height: 70%;
-  margin-right: 10rem;
 }
 
-main .billing aside h3 {
+body main .billing aside h3 {
   margin: 1rem 0;
   text-align: left;
   font-size: 2rem;
@@ -907,7 +498,7 @@ main .billing aside h3 {
   border-bottom: 1px dotted #dddddd;
 }
 
-main .billing aside ul {
+body main .billing aside ul {
   margin: 2rem 0;
   list-style: none;
   text-align: left;
@@ -922,7 +513,7 @@ main .billing aside ul {
   border-bottom: 1px dotted #dddddd;
 }
 
-main .billing aside ul li {
+body main .billing aside ul li {
   width: 100%;
   margin: 0.5rem 0;
   font-weight: 500;
@@ -935,7 +526,7 @@ main .billing aside ul li {
   text-transform: uppercase;
 }
 
-main .billing aside ul li span {
+body main .billing aside ul li span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -946,16 +537,16 @@ main .billing aside ul li span {
   width: 50%;
 }
 
-main .billing aside ul li span .group {
+body main .billing aside ul li span .group {
   margin: 0.5rem 0;
 }
 
-main .billing aside ul li span .group label {
+body main .billing aside ul li span .group label {
   font-weight: normal;
   text-transform: uppercase;
 }
 
-main .billing aside p {
+body main .billing aside p {
   width: 100%;
   margin: 0.5rem 0;
   font-weight: 500;
@@ -973,7 +564,7 @@ main .billing aside p {
   border-bottom: 1px dotted #dddddd;
 }
 
-main .billing aside p span {
+body main .billing aside p span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -981,8 +572,8 @@ main .billing aside p span {
   font-size: 1.5rem;
 }
 
-main .billing aside .side-form1,
-main .billing aside .side-form2 {
+body main .billing aside .side-form1,
+body main .billing aside .side-form2 {
   width: 100%;
   margin: 1.5rem 0 1rem 0;
   display: -webkit-box;
@@ -996,13 +587,13 @@ main .billing aside .side-form2 {
   border-bottom: 1px dotted #dddddd;
 }
 
-main .billing aside .side-form1 label,
-main .billing aside .side-form2 label {
+body main .billing aside .side-form1 label,
+body main .billing aside .side-form2 label {
   margin-left: 0.5rem;
 }
 
-main .billing aside .side-form3,
-main .billing aside .side-form4 {
+body main .billing aside .side-form3,
+body main .billing aside .side-form4 {
   width: 100%;
   margin: 1.85rem 0 1rem 0;
   display: -webkit-box;
@@ -1018,18 +609,18 @@ main .billing aside .side-form4 {
   border-bottom: 1px dotted #dddddd;
 }
 
-main .billing aside .side-form3 label,
-main .billing aside .side-form4 label {
+body main .billing aside .side-form3 label,
+body main .billing aside .side-form4 label {
   margin-left: 0.5rem;
 }
 
-main .billing aside .side-form3 img,
-main .billing aside .side-form4 img {
+body main .billing aside .side-form3 img,
+body main .billing aside .side-form4 img {
   margin-left: auto;
 }
 
-main .billing aside .side-form3 li,
-main .billing aside .side-form4 li {
+body main .billing aside .side-form3 li,
+body main .billing aside .side-form4 li {
   list-style: none;
   text-transform: none;
   text-align: left;
@@ -1038,7 +629,7 @@ main .billing aside .side-form4 li {
   margin-top: 0.3rem;
 }
 
-main .billing aside .side-form5 {
+body main .billing aside .side-form5 {
   width: 100%;
   margin: 2rem 0 2rem 0;
   display: -webkit-box;
@@ -1046,11 +637,11 @@ main .billing aside .side-form5 {
   display: flex;
 }
 
-main .billing aside .side-form5 input {
+body main .billing aside .side-form5 input {
   margin: 0.5rem 0 0 0;
 }
 
-main .billing aside a {
+body main .billing aside a {
   border: 1px solid #048a10;
   padding: 0.5rem 1rem;
   -webkit-box-shadow: 2px 2px 5px #777;
@@ -1060,13 +651,13 @@ main .billing aside a {
   /*Checkout styles end*/
 }
 
-main .testimonials {
+body main .testimonials {
   height: 100vh;
   width: 100%;
   text-align: center;
 }
 
-main .testimonials h1 {
+body main .testimonials h1 {
   font-size: 4rem;
   margin: 1rem auto;
   position: relative;
@@ -1076,7 +667,7 @@ main .testimonials h1 {
   width: fit-content;
 }
 
-main .testimonials h1::after {
+body main .testimonials h1::after {
   content: '';
   margin: auto;
   position: absolute;
@@ -1087,7 +678,7 @@ main .testimonials h1::after {
   background: url(/Images/images/title_shape.png) no-repeat;
 }
 
-main .testimonials .reviews {
+body main .testimonials .reviews {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1102,13 +693,13 @@ main .testimonials .reviews {
   border-bottom: 0.01rem solid #dddddd;
 }
 
-main .testimonials .reviews .swiper-container {
+body main .testimonials .reviews .swiper-container {
   width: 100%;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
-main .testimonials .reviews .swiper-slide {
+body main .testimonials .reviews .swiper-slide {
   background-position: center;
   background-size: cover;
   display: -webkit-box;
@@ -1135,7 +726,7 @@ main .testimonials .reviews .swiper-slide {
   position: relative;
 }
 
-main .testimonials .reviews .swiper-slide::after {
+body main .testimonials .reviews .swiper-slide::after {
   content: url(../Images/icon/testi_quote.png);
   position: absolute;
   bottom: -10rem;
@@ -1143,21 +734,21 @@ main .testimonials .reviews .swiper-slide::after {
   height: 100%;
 }
 
-main .testimonials .reviews .swiper-slide h4 {
+body main .testimonials .reviews .swiper-slide h4 {
   font-size: 1.5rem;
   margin-bottom: 0;
 }
 
-main .testimonials .reviews .swiper-slide p {
+body main .testimonials .reviews .swiper-slide p {
   color: #858282;
   margin: 0;
 }
 
-main .testimonials .reviews .swiper-slide i {
+body main .testimonials .reviews .swiper-slide i {
   color: #048a10;
 }
 
-main .testimonials .reviews .swiper-slide article {
+body main .testimonials .reviews .swiper-slide article {
   color: #858282;
   font-size: 0.9rem;
   font-style: italic;
@@ -1165,26 +756,26 @@ main .testimonials .reviews .swiper-slide article {
   margin-bottom: 1rem;
 }
 
-main .testimonials .reviews .swiper-slide img {
+body main .testimonials .reviews .swiper-slide img {
   display: block;
   width: 20%;
   height: 20%;
 }
 
-main .testimonials .reviews .swiper-pagination {
+body main .testimonials .reviews .swiper-pagination {
   cursor: pointer;
 }
 
-main .main {
+body main .main {
   text-align: center;
 }
 
-main .main h1 {
+body main .main h1 {
   font-size: 4rem;
-  margin: 3rem 0 0 0;
+  margin: 0;
 }
 
-main .main a {
+body main .main a {
   padding: 0.2rem 0.3rem;
   margin-bottom: 3rem;
   color: #048a10;
@@ -1195,46 +786,45 @@ main .main a {
   transition: 0.4s ease-in-out;
 }
 
-main .main a:hover {
+body main .main a:hover {
   color: #f5f5f5;
   background: #048a10;
 }
 
-main .main .content {
+body main .main .content {
   /*About Us Start*/
-  width: 100%;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 2rem 4rem;
-  margin: 2rem 0;
+  margin: 2rem auto;
 }
 
-main .main .content img {
+body main .main .content img {
   border-radius: 0.2rem;
   height: 30rem;
 }
 
-main .main .content .info {
+body main .main .content .info {
   padding: 0 2rem;
   margin: 1rem 2rem;
 }
 
-main .main .content .info h2 {
+body main .main .content .info h2 {
   font-size: 3rem;
   text-align: left;
 }
 
-main .main .content .info article {
+body main .main .content .info article {
   text-align: left;
 }
 
-main .main .content .info article p {
+body main .main .content .info article p {
   color: #858282;
   line-height: 2;
 }
 
-main .main .content .info h3 {
+body main .main .content .info h3 {
   color: #048a10;
   font-size: 2rem;
   margin: 1rem 0;
@@ -1243,7 +833,7 @@ main .main .content .info h3 {
   border-bottom: 0.02rem solid #dddddd;
 }
 
-main .main .content .info .icons {
+body main .main .content .info .icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1256,7 +846,7 @@ main .main .content .info .icons {
   padding: 1rem 0;
 }
 
-main .main .content .info .icons .items {
+body main .main .content .info .icons .items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1267,13 +857,13 @@ main .main .content .info .icons .items {
       justify-content: space-around;
 }
 
-main .main .content .info .icons .items i {
+body main .main .content .info .icons .items i {
   font-size: 2rem;
   color: #858282;
   margin-right: 1rem;
 }
 
-main .main .content .info .icons .items .text {
+body main .main .content .info .icons .items .text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1286,24 +876,24 @@ main .main .content .info .icons .items .text {
           align-items: center;
 }
 
-main .main .content .info .icons .items .text h4 {
+body main .main .content .info .icons .items .text h4 {
   font-size: 1.7rem;
   font-weight: bolder;
 }
 
-main .main .content .info .icons .items .text p {
+body main .main .content .info .icons .items .text p {
   color: #858282;
   font-size: 0.9rem;
 }
 
-main .main .experience {
+body main .main .experience {
   height: 100vh;
   width: 100%;
   background: #f5f5f5;
   padding: 2rem;
 }
 
-main .main .experience h1 {
+body main .main .experience h1 {
   font-size: 4rem;
   margin: 1rem auto;
   position: relative;
@@ -1313,7 +903,7 @@ main .main .experience h1 {
   width: fit-content;
 }
 
-main .main .experience h1::after {
+body main .main .experience h1::after {
   content: '';
   margin: auto;
   position: absolute;
@@ -1324,36 +914,37 @@ main .main .experience h1::after {
   background: url(/Images/images/title_shape.png) no-repeat;
 }
 
-main .main .experience .container {
+body main .main .experience .container {
   padding: 1rem;
+  width: 80%;
   margin: 6rem auto;
 }
 
-main .main .experience .container .cardd {
+body main .main .experience .container .cardd {
   background: white;
   margin: 2rem 1.5rem;
-  padding: 1rem 2rem;
+  padding: 1rem;
   border-radius: 0.2rem;
-  -webkit-box-shadow: 2px 2px 10px #a9aaa9;
-          box-shadow: 2px 2px 10px #a9aaa9;
+  -webkit-box-shadow: 2px 2px 5px #a9aaa9;
+          box-shadow: 2px 2px 5px #a9aaa9;
   text-align: left;
   line-height: 2;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
 }
 
-main .main .experience .container .cardd:hover {
+body main .main .experience .container .cardd:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
 
-main .main .experience .container .cardd:hover i {
+body main .main .experience .container .cardd:hover i {
   -webkit-transform: rotateY(360deg);
           transform: rotateY(360deg);
   color: #048a10;
 }
 
-main .main .experience .container .cardd i {
+body main .main .experience .container .cardd i {
   font-size: 3rem;
   margin: 1rem;
   color: #dcf3de;
@@ -1361,19 +952,19 @@ main .main .experience .container .cardd i {
   transition: 0.5s ease-in-out;
 }
 
-main .main .experience .container .cardd h3 {
+body main .main .experience .container .cardd h3 {
   font-size: 2rem;
   font-weight: bolder;
   margin: 1rem 0;
 }
 
-main .main .experience .container .cardd p {
+body main .main .experience .container .cardd p {
   color: #858282;
   font-size: 0.9rem;
   margin: 2rem 1rem;
 }
 
-main .main .experience .container .cardd p:nth-child(2), main .main .experience .container .cardd p:nth-child(3) {
+body main .main .experience .container .cardd p:nth-child(2), body main .main .experience .container .cardd p:nth-child(3) {
   margin: 0;
   padding: 0;
   font-size: 0.8rem;
@@ -1383,15 +974,14 @@ main .main .experience .container .cardd p:nth-child(2), main .main .experience 
   /*About Us End*/
 }
 
-main .main .separator {
+body main .main .separator {
   width: 0.05rem;
   height: 3rem;
   background: #dddddd;
 }
 
-main .main .container {
+body main .main .container {
   /*Contact Us*/
-  margin-top: 2rem;
   width: 90vw;
   height: 50vh;
   background: #f5f5f5;
@@ -1405,7 +995,7 @@ main .main .container {
           align-items: center;
 }
 
-main .main .container .card {
+body main .main .container .card {
   position: relative;
   width: 30%;
   height: 65%;
@@ -1431,45 +1021,45 @@ main .main .container .card {
   transition: 0.5s ease-in-out;
 }
 
-main .main .container .card:hover {
+body main .main .container .card:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   background: #f5f5f5;
   outline-offset: 0;
 }
 
-main .main .container .card i {
+body main .main .container .card i {
   font-size: 3rem;
   color: #048a10;
   margin: 1rem 0;
 }
 
-main .main .container .card h5 {
+body main .main .container .card h5 {
   font-size: 1.5rem;
 }
 
-main .main .container .card p {
+body main .main .container .card p {
   font-size: 0.9rem;
   color: #858282;
   padding: 2rem;
 }
 
-main .main .container .card p a {
+body main .main .container .card p a {
   font-size: 0.9rem;
   font-weight: 500;
 }
 
-main .main .container .card p a:hover {
+body main .main .container .card p a:hover {
   background: #f5f5f5;
   color: #048a10;
 }
 
-main .message {
+body main .message {
   text-align: center;
   width: 100vw;
 }
 
-main .message h1 {
+body main .message h1 {
   font-size: 4rem;
   margin: 1rem auto;
   position: relative;
@@ -1479,7 +1069,7 @@ main .message h1 {
   width: fit-content;
 }
 
-main .message h1::after {
+body main .message h1::after {
   content: '';
   margin: auto;
   position: absolute;
@@ -1490,7 +1080,7 @@ main .message h1::after {
   background: url(/Images/images/title_shape.png) no-repeat;
 }
 
-main .message .fields {
+body main .message .fields {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1502,7 +1092,7 @@ main .message .fields {
       justify-content: space-around;
 }
 
-main .message .fields form {
+body main .message .fields form {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -1512,7 +1102,7 @@ main .message .fields form {
   gap: 1rem;
 }
 
-main .message .fields form .group {
+body main .message .fields form .group {
   background: #f5f5f5;
   height: 3rem;
   border-radius: 0.2rem;
@@ -1528,7 +1118,7 @@ main .message .fields form .group {
   padding: 0.5rem;
 }
 
-main .message .fields form .group input {
+body main .message .fields form .group input {
   background: #f5f5f5;
   width: 100%;
   outline: none;
@@ -1536,12 +1126,12 @@ main .message .fields form .group input {
   padding-left: 0.5rem;
 }
 
-main .message .fields form .group i {
+body main .message .fields form .group i {
   color: #858282;
   margin-right: 0.5rem;
 }
 
-main .message .fields form .text {
+body main .message .fields form .text {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-column: 1/3;
@@ -1550,7 +1140,7 @@ main .message .fields form .text {
   border-radius: 0.2rem;
 }
 
-main .message .fields form .text textarea {
+body main .message .fields form .text textarea {
   width: 100%;
   min-height: 16rem;
   background: #f5f5f5;
@@ -1560,7 +1150,7 @@ main .message .fields form .text textarea {
   resize: none;
 }
 
-main .message .fields form .button {
+body main .message .fields form .button {
   background: #048a10;
   width: 50%;
   color: #f5f5f5;
@@ -1569,50 +1159,65 @@ main .message .fields form .button {
   text-transform: uppercase;
 }
 
-main .message .fields form .button:hover {
+body main .message .fields form .button:hover {
   background: #262726;
   /*Contact Us end*/
 }
 
-main .fill-in {
+body main .fill-in {
   /*My Account*/
   width: 100vw;
-  max-height: 100vh;
-  margin: 1rem;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-main .fill-in .wrap {
-  background: #f5f5f5;
+body main .fill-in .wrap {
   width: 60%;
-  margin: 1rem auto;
   border-radius: 0.2rem;
   padding: 1rem;
-  -webkit-box-shadow: inset 1px 1px 1px #a9aaa9, 1px 1px 1px #a9aaa9;
-          box-shadow: inset 1px 1px 1px #a9aaa9, 1px 1px 1px #a9aaa9;
+  background: linear-gradient(45deg, #048a10, #56ab2f, #a8e063, #f1d742, #ff9966, #ff5e62);
+  background-size: 600%;
+  -webkit-animation: text-bg 20s infinite alternate;
+          animation: text-bg 20s infinite alternate;
 }
 
-main .fill-in .wrap h2 {
+body main .fill-in h2 {
   margin: 2rem 0;
   font-size: 3rem;
+  color: white;
 }
 
-main .fill-in .wrap h4 {
+body main .fill-in h4 {
   font-size: 2rem;
   font-weight: 900;
   margin: 1rem 0;
+  color: white;
 }
 
-main .fill-in .wrap p {
+body main .fill-in p {
   color: #262726;
   margin: 1rem 0 0 0;
 }
 
-main .fill-in .wrap a {
+body main .fill-in a {
   font-size: 1rem;
   margin: 1rem 0;
+  color: white;
 }
 
-main .fill-in .wrap form {
+body main .fill-in a:hover:hover {
+  background: linear-gradient(45deg, #048a10, #56ab2f, #a8e063, #f1d742, #ff9966, #ff5e62);
+}
+
+body main .fill-in form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1630,7 +1235,7 @@ main .fill-in .wrap form {
   padding: 1rem;
 }
 
-main .fill-in .wrap form .details {
+body main .fill-in form .details {
   margin: 1rem auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1641,30 +1246,30 @@ main .fill-in .wrap form .details {
           flex-direction: column;
 }
 
-main .fill-in .wrap form .details input {
+body main .fill-in form .details input {
   height: 3rem;
   width: 35rem;
   margin: 1rem auto;
   outline: none;
   border-radius: 0.2rem;
   padding-left: 1rem;
-  background: white;
-  -webkit-box-shadow: 1px 1px 5px #a9aaa9;
-          box-shadow: 1px 1px 5px #a9aaa9;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-main .fill-in .wrap form .details .pass {
+body main .fill-in form .details .pass {
   position: relative;
 }
 
-main .fill-in .wrap form .details .pass i {
+body main .fill-in form .details .pass i {
   position: absolute;
   right: 1rem;
   top: 2rem;
-  color: #858282;
+  color: white;
 }
 
-main .fill-in .wrap form .details .check-box {
+body main .fill-in form .details .check-box {
   margin-left: 0;
   margin-top: 1rem;
   width: 100%;
@@ -1675,26 +1280,27 @@ main .fill-in .wrap form .details .check-box {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: white;
 }
 
-main .fill-in .wrap form .details .check-box .check {
+body main .fill-in form .details .check-box .check {
   margin: auto 0.1rem;
   width: 1rem;
   height: 1rem;
   outline: none;
 }
 
-main .fill-in .wrap form .details .check-box a {
+body main .fill-in form .details .check-box a {
   margin-left: auto;
-  color: #262726;
+  color: white;
   border-radius: 0.1rem;
 }
 
-main .fill-in .wrap form .details .check-box a:hover {
-  color: white;
+body main .fill-in form .details .check-box a:hover {
+  background: linear-gradient(45deg, #048a10, #56ab2f, #a8e063, #f1d742, #ff9966, #ff5e62);
 }
 
-main .fill-in .wrap form .buttons {
+body main .fill-in form .buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1709,21 +1315,21 @@ main .fill-in .wrap form .buttons {
   padding: 1rem;
 }
 
-main .fill-in .wrap form .buttons a {
-  border: 1px solid #048a10;
+body main .fill-in form .buttons a {
+  border: 1px solid white;
   border-radius: 0.1rem;
   padding: 0.2rem 0.8rem;
   text-transform: uppercase;
   font-weight: 500;
 }
 
-main .fill-in .wrap form .buttons a:hover {
-  background: #048a10;
+body main .fill-in form .buttons a:hover {
+  background: linear-gradient(45deg, #048a10, #56ab2f, #a8e063, #f1d742, #ff9966, #ff5e62);
   color: #f5f5f5;
   /*My Account end*/
 }
 
-main .error {
+body .error {
   /*404 page start*/
   width: 100vh;
   border-radius: 0.2rem;
@@ -1731,29 +1337,29 @@ main .error {
   padding: 1rem;
 }
 
-main .error h2 {
+body .error h2 {
   font-size: 8rem;
   color: tomato;
   margin: 0 auto 1rem;
 }
 
-main .error h4 {
+body .error h4 {
   font-size: 2rem;
   font-weight: 900;
   margin: 1rem 0;
 }
 
-main .error p {
+body .error p {
   color: #262726;
   font-size: 0.9rem;
   margin: 1rem 0;
 }
 
-main .error .details {
+body .error .details {
   padding: 1rem;
 }
 
-main .error .search {
+body .error .search {
   width: 34rem;
   margin: 2rem auto;
   height: 3rem;
@@ -1768,7 +1374,7 @@ main .error .search {
           align-items: center;
 }
 
-main .error .search input {
+body .error .search input {
   width: 30rem;
   height: 100%;
   background: #f5f5f5;
@@ -1777,7 +1383,7 @@ main .error .search input {
   padding-left: 1rem;
 }
 
-main .error .search a {
+body .error .search a {
   height: 100%;
   font-size: 2rem;
   margin-top: auto;
@@ -1787,11 +1393,11 @@ main .error .search a {
   background: #f5f5f5;
 }
 
-main .error .search a:hover {
+body .error .search a:hover {
   color: #048a10;
 }
 
-main .error .button a {
+body .error .button a {
   text-transform: uppercase;
   font-size: 1rem;
   margin: 1rem auto;
@@ -1800,26 +1406,26 @@ main .error .button a {
   padding: 0.5rem 1rem;
 }
 
-main .error .button a:hover {
+body .error .button a:hover {
   background: #048a10;
   color: #f5f5f5;
   /*404 end*/
 }
 
-main .terms {
+body .terms {
   /*Terms and conditions start*/
-  min-height: 100vh;
+  min-height: 70vh;
   width: 100vw;
-  padding: 1rem 5rem;
+  padding: 1rem;
   text-align: center;
 }
 
-main .terms h1 {
+body .terms h1 {
   font-size: 4rem;
-  margin: 3rem 0 0 0;
+  margin: 0;
 }
 
-main .terms a {
+body .terms a {
   padding: 0.2rem 0.3rem;
   margin-bottom: 3rem;
   color: #048a10;
@@ -1830,31 +1436,31 @@ main .terms a {
   transition: 0.4s ease-in-out;
 }
 
-main .terms a:hover {
+body .terms a:hover {
   color: #f5f5f5;
   background: #048a10;
 }
 
-main .terms h4 {
+body .terms h4 {
   color: #048a10;
   font-size: 1.5rem;
   margin: 1rem 0;
 }
 
-main .terms p {
+body .terms p {
   color: #858282;
   padding: 0.5rem 2rem;
   text-align: left;
   line-height: 1.5;
 }
 
-main .terms li {
+body .terms li {
   margin: 0.6rem auto;
   color: #858282;
   text-align: left;
 }
 
-main .terms .liner {
+body .terms .liner {
   height: 0.02rem;
   width: 95%;
   background: #858282;
@@ -1862,51 +1468,56 @@ main .terms .liner {
   /*Terms and conditions end*/
 }
 
-main th {
+body .table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body .table th {
   /*Wishlist Start*/
   color: #858282;
 }
 
-main th a {
+body .table th a {
   text-decoration: none;
 }
 
-main th a i {
+body .table th a i {
   color: #858282;
   font-size: 1rem;
 }
 
-main th a i:hover {
+body .table th a i:hover {
   color: #f5f5f5;
 }
 
-main td {
+body .table td {
   text-align: center;
   color: #858282;
   vertical-align: middle;
   max-width: 15rem;
 }
 
-main td h5 {
+body .table td h5 {
   font-weight: bold;
 }
 
-main td h5:hover {
+body .table td h5:hover {
   color: #048a10;
 }
 
-main td span {
+body .table td span {
   font-size: 0.7rem;
   color: #262726;
 }
 
-main td .price {
+body .table td .price {
   font-size: 1rem;
   font-weight: bold;
   color: #048a10;
 }
 
-main td .add {
+body .table td .add {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1919,25 +1530,29 @@ main td .add {
           align-items: center;
 }
 
-main td .add p {
+body .table td .add p {
   font-size: 0.8rem;
   display: block;
 }
 
-main td .add a {
+body .table td .add a {
   border: 1px solid #048a10;
   border-radius: 0.1rem;
   color: #858282;
   /*Wishlist Styles End*/
 }
 
-main .special-offer {
+body .table td .add a:hover {
+  color: white;
+}
+
+body .special-offer {
   /*Top Sales Start*/
   text-align: center;
   width: 100%;
 }
 
-main .special-offer h1 {
+body .special-offer h1 {
   font-size: 5rem;
   margin: 1rem auto;
   position: relative;
@@ -1947,7 +1562,7 @@ main .special-offer h1 {
   width: fit-content;
 }
 
-main .special-offer h1::after {
+body .special-offer h1::after {
   content: '';
   margin: auto;
   position: absolute;
@@ -1958,7 +1573,7 @@ main .special-offer h1::after {
   background: url(/Images/images/title_shape.png) no-repeat;
 }
 
-main .special-offer .info {
+body .special-offer .info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1971,12 +1586,12 @@ main .special-offer .info {
           justify-content: space-between;
 }
 
-main .special-offer .info .text {
+body .special-offer .info .text {
   margin-left: 5rem;
   line-height: 1;
 }
 
-main .special-offer .info .text h3 {
+body .special-offer .info .text h3 {
   font-size: 5rem;
   margin: 0;
   text-transform: uppercase;
@@ -2007,7 +1622,7 @@ main .special-offer .info .text h3 {
   }
 }
 
-main .special-offer .info .text p {
+body .special-offer .info .text p {
   color: #858282;
   font-size: 2rem;
   font-weight: 500;
@@ -2021,7 +1636,7 @@ main .special-offer .info .text p {
           animation: text-bg 15s infinite alternate 7s;
 }
 
-main .special-offer .info .text p span {
+body .special-offer .info .text p span {
   padding: 0.1rem 0.3rem;
   font-weight: 900;
   font-size: 2.5rem;

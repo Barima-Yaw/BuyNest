@@ -15,7 +15,6 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="../Css/style.css" />
-    <link rel="stylesheet" href="../Css/others.css" />
     <link rel="stylesheet" href="../Css/shop.css" />
 
         <!-- Link Swiper's CSS -->
@@ -54,7 +53,7 @@
               Home
           </a>
           <a href="../Html/about.html" class="list-item about">About</a>
-          <div class="pages">
+          <!-- <div class="pages">
             <button class="list-item">
               Pages <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </button>
@@ -88,7 +87,7 @@
               <li><a href="../Html/wishlist.html">Wishlist</a></li>
               <li><a href="../Html/checkout.html">Checkout</a></li>
             </ul>
-          </div>
+          </div> -->
           <a href="../Html/special.html" class="list-item special">Special</a>
           <a href="../Html/contacts.html" class="list-item contacts">Contacts</a>
         </nav>
@@ -101,7 +100,7 @@
             Cart
           </a>
           <a href="../Html/wishlist.html">
-            <i class="fas fa-shopping-basket"></i>
+            <i class="far fa-heart"></i>
             Wishlist
           </a>
           <a href="../Html/account.html">
@@ -384,7 +383,16 @@
                 </div>
                 <div class="filter">
                     <h4>FILTER BY PRICE</h4>
-                    <input type="text" placeholder="Your Budget:">
+                    <div class="range-slider">
+                      <div class="slider-value">
+                        <!-- <span>400</span> -->
+                      </div>
+                      <div class="field">
+                        <div class="min-value">0</div>
+                        <input type="range" min="0" max="1000" value="400" step="1">
+                        <div class="max-value">1000</div>
+                      </div>
+                    </div>
                 </div>
                 <div class="new-product">
                     <h4>NEW PRODUCT</h4>
@@ -583,9 +591,9 @@
                                 <img src="../Images/product/t_exclusive_product02.jpg"/>
                                 <img class="back" src="../Images/product/td_product_img02.jpg" alt="">
                                 <div class="view-icons">
-                                  <a href="#"><i class="fas fa-random"></i></a>
+                                  <a href="../Html/wishlist.html"><i class="far fa-heart"></i></a>
                                   <a href="../Html/cart.html"><i class="fas fa-shopping-cart"></i></a>
-                                  <a href="#"><i class="fas fa-eye"></i></a>
+                                  <a href="../Html/shopDetails.html"><i class="fas fa-eye"></i></a>
                                 </div>
                             </div>
                             <div class="name">
@@ -608,9 +616,9 @@
                                 <img src="../Images/product/t_exclusive_product03.jpg"/>
                                 <img class="back" src="../Images/product/td_product_img03.jpg" alt="">
                                 <div class="view-icons">
-                                  <a href="#"><i class="fas fa-random"></i></a>
+                                  <a href="../Html/wishlist.html"><i class="far fa-heart"></i></a>
                                   <a href="../Html/cart.html"><i class="fas fa-shopping-cart"></i></a>
-                                  <a href="#"><i class="fas fa-eye"></i></a>
+                                  <a href="../Html/shopDetails.html"><i class="fas fa-eye"></i></a>
                                 </div>
                             </div>
                             <div class="name">
@@ -633,9 +641,9 @@
                                 <img src="../Images/product/t_exclusive_product04.jpg"/>
                                 <img class="back" src="../Images/product/td_product_img04.jpg" alt="">
                                 <div class="view-icons">
-                                  <a href="#"><i class="fas fa-random"></i></a>
+                                  <a href="../Html/wishlist.html"><i class="far fa-heart"></i></a>
                                   <a href="../Html/cart.html"><i class="fas fa-shopping-cart"></i></a>
-                                  <a href="#"><i class="fas fa-eye"></i></a>
+                                  <a href="../Html/shopDetails.html"><i class="fas fa-eye"></i></a>
                                 </div>
                             </div>
                             <div class="name">
@@ -658,9 +666,9 @@
                                 <img src="../Images/product/t_exclusive_product05.jpg"/>
                                 <img class="back" src="../Images/product/td_product_img05.jpg" alt="">
                                 <div class="view-icons">
-                                  <a href="#"><i class="fas fa-random"></i></a>
+                                  <a href="../Html/wishlist.html"><i class="far fa-heart"></i></a>
                                   <a href="../Html/cart.html"><i class="fas fa-shopping-cart"></i></a>
-                                  <a href="#"><i class="fas fa-eye"></i></a>
+                                  <a href="../Html/shopDetails.html"><i class="fas fa-eye"></i></a>
                                 </div>
                             </div>
                             <div class="name">
@@ -683,9 +691,9 @@
                                 <img src="../Images/product/t_exclusive_product13.jpg"/>
                                 <img class="back" src="../Images/product/td_product_img01.jpg" alt="">
                                 <div class="view-icons">
-                                  <a href="#"><i class="fas fa-random"></i></a>
+                                  <a href="../Html/wishlist.html"><i class="far fa-heart"></i></a>
                                   <a href="../Html/cart.html"><i class="fas fa-shopping-cart"></i></a>
-                                  <a href="#"><i class="fas fa-eye"></i></a>
+                                  <a href="../Html/shopDetails.html"><i class="fas fa-eye"></i></a>
                                 </div>
                             </div>
                             <div class="name">
@@ -708,9 +716,9 @@
                                 <img src="../Images/product/t_exclusive_product07.jpg"/>
                                 <img class="back" src="../Images/product/td_product_img02.jpg" alt="">
                                 <div class="view-icons">
-                                  <a href="#"><i class="fas fa-random"></i></a>
+                                  <a href="../Html/wishlist.html"><i class="far fa-heart"></i></a>
                                   <a href="../Html/cart.html"><i class="fas fa-shopping-cart"></i></a>
-                                  <a href="#"><i class="fas fa-eye"></i></a>
+                                  <a href="../Html/shopDetails.html"><i class="fas fa-eye"></i></a>
                                 </div>
                             </div>
                             <div class="name">
@@ -733,9 +741,9 @@
                                 <img src="../Images/product/t_exclusive_product08.jpg"/>
                                 <img class="back" src="../Images/product/td_product_img03.jpg" alt="">
                                 <div class="view-icons">
-                                  <a href="#"><i class="fas fa-random"></i></a>
+                                  <a href="../Html/wishlist.html"><i class="far fa-heart"></i></a>
                                   <a href="../Html/cart.html"><i class="fas fa-shopping-cart"></i></a>
-                                  <a href="#"><i class="fas fa-eye"></i></a>
+                                  <a href="../Html/shopDetails.html"><i class="fas fa-eye"></i></a>
                                 </div>
                             </div>
                             <div class="name">
@@ -758,9 +766,9 @@
                                 <img src="../Images/product/t_exclusive_product09.jpg"/>
                                 <img class="back" src="../Images/product/td_product_img04.jpg" alt="">
                                 <div class="view-icons">
-                                  <a href="#"><i class="fas fa-random"></i></a>
+                                  <a href="../Html/wishlist.html"><i class="far fa-heart"></i></a>
                                   <a href="../Html/cart.html"><i class="fas fa-shopping-cart"></i></a>
-                                  <a href="#"><i class="fas fa-eye"></i></a>
+                                  <a href="../Html/shopDetails.html"><i class="fas fa-eye"></i></a>
                                 </div>
                             </div>
                             <div class="name">
@@ -783,9 +791,9 @@
                                 <img src="../Images/product/t_exclusive_product10.jpg"/>
                                 <img class="back" src="../Images/product/td_product_img05.jpg" alt="">
                                 <div class="view-icons">
-                                  <a href="#"><i class="fas fa-random"></i></a>
+                                  <a href="../Html/wishlist.html"><i class="far fa-heart"></i></a>
                                   <a href="../Html/cart.html"><i class="fas fa-shopping-cart"></i></a>
-                                  <a href="#"><i class="fas fa-eye"></i></a>
+                                  <a href="../Html/shopDetails.html"><i class="fas fa-eye"></i></a>
                                 </div>
                             </div>
                             <div class="name">
@@ -808,9 +816,9 @@
                                 <img src="../Images/product/t_exclusive_product11.jpg"/>
                                 <img class="back" src="../Images/product/td_product_img01.jpg" alt="">
                                 <div class="view-icons">
-                                  <a href="#"><i class="fas fa-random"></i></a>
+                                  <a href="../Html/wishlist.html"><i class="far fa-heart"></i></a>
                                   <a href="../Html/cart.html"><i class="fas fa-shopping-cart"></i></a>
-                                  <a href="#"><i class="fas fa-eye"></i></a>
+                                  <a href="../Html/shopDetails.html"><i class="fas fa-eye"></i></a>
                                 </div>
                             </div>
                             <div class="name">
@@ -833,9 +841,9 @@
                                 <img src="../Images/product/t_exclusive_product12.jpg"/>
                                 <img class="back" src="../Images/product/td_product_img02.jpg" alt="">
                                 <div class="view-icons">
-                                  <a href="#"><i class="fas fa-random"></i></a>
+                                  <a href="../Html/wishlist.html"><i class="far fa-heart"></i></a>
                                   <a href="../Html/cart.html"><i class="fas fa-shopping-cart"></i></a>
-                                  <a href="#"><i class="fas fa-eye"></i></a>
+                                  <a href="../Html/shopDetails.html"><i class="fas fa-eye"></i></a>
                                 </div>
                             </div>
                             <div class="name">
