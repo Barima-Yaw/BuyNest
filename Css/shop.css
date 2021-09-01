@@ -42,7 +42,7 @@ body main .shop .shop-container {
   display: -ms-flexbox;
   display: flex;
   width: 80%;
-  margin: 1rem auto;
+  margin: 0 auto;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
