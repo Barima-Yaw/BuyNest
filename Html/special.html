@@ -102,6 +102,11 @@
             Profile
           </a>
         </div>
+        <div class="hamburger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
       </section>
       <!-- Icons end  -->
 
@@ -804,6 +809,16 @@
     </footer>
 
     <script src="../Js/main.js"></script>
+    <script>
+      //Inventory Button
+      const Inventory = document.getElementById('inventory');
+      const sub = document.getElementById('sub');
+          
+      // Adding event listener to inventory button
+      Inventory.addEventListener('click', () => {
+        sub.classList.toggle('sub');
+      });
+    </script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper('.mySwiper', {

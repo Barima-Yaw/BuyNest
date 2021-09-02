@@ -223,8 +223,8 @@ body header .first-bar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-width: 100vw;
-  max-height: 10vh;
+  width: 100vw;
+  height: 10vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -315,6 +315,82 @@ body header .dropdown .homes :hover {
   /*Navbar styles end*/
 }
 
+body header .dropdown .hamburger {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  body header .icons {
+    width: 50%;
+    border: none;
+  }
+  body header .dropdown {
+    height: 100vh;
+    width: 60vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: white;
+    border: none;
+    position: absolute;
+    padding-bottom: 5rem;
+    top: 3rem;
+    right: 0;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  body header .hamburger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    height: 60%;
+    margin: auto 8%;
+    width: 3.4rem;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  body header .hamburger div {
+    height: 1px;
+    width: 90%;
+    background: #d1d1d1;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+  }
+  body header .toggle .line1 {
+    -webkit-transform: rotate(-45deg) translate(-5px, 11px);
+            transform: rotate(-45deg) translate(-5px, 11px);
+    width: 80%;
+  }
+  body header .toggle .line2 {
+    opacity: 0;
+  }
+  body header .toggle .line3 {
+    -webkit-transform: rotate(45deg) translate(-5px, -11px);
+            transform: rotate(45deg) translate(-5px, -11px);
+    width: 80%;
+  }
+}
+
+body header .nav-slide {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
 body header .second-bar {
   /*Search area styles*/
   height: 20vh;
@@ -352,8 +428,7 @@ body header .second-bar > div .search-box {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 0.5rem;
-  max-width: 50%;
-  min-width: 40%;
+  min-width: 50%;
 }
 
 body header .second-bar > div .search-box input {
@@ -361,7 +436,6 @@ body header .second-bar > div .search-box input {
   border-radius: 2rem;
   height: 2.5rem;
   width: 28rem;
-  min-width: 20rem;
   outline: none;
   padding: 1rem;
   color: #262726;
@@ -370,7 +444,6 @@ body header .second-bar > div .search-box input {
 body header .second-bar > div .search-box select {
   height: 2rem;
   max-width: 15rem;
-  min-width: 10rem;
   color: #858282;
   background: #f5f5f5;
   border-left: 1px solid #858282;
@@ -765,6 +838,15 @@ body header .second-bar .extras .currency ul li a {
   color: #858282;
   text-decoration: none;
   font-size: 0.8rem;
+}
+
+@media (max-width: 1100px) {
+  body header .second-bar > div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 body main {
@@ -1196,7 +1278,7 @@ body main .deals .super-deals .swiper-slide img:hover {
 }
 
 body main .deals .top-deal {
-  height: 60vh;
+  min-height: 60vh;
   width: 90%;
   background: white;
   border-radius: 0.1rem;
@@ -1214,7 +1296,7 @@ body main .deals .top-deal {
 
 body main .deals .top-deal .headline {
   width: 60%;
-  height: 100%;
+  min-height: 100%;
   padding: 1rem;
   text-align: center;
   color: #262726;
@@ -1271,6 +1353,15 @@ body main .deals .top-deal img {
   border-top-right-radius: 0.2rem;
 }
 
+@media (max-width: 900px) {
+  body main .deals .top-deal {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 body main .slider-wrapper {
   margin: 2rem auto;
   padding: 2rem 4rem;
@@ -1310,9 +1401,16 @@ body main .slider-wrapper .swiper-slide img {
 body main .top-collection {
   /*Top Collection*/
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: #f5f5f5;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 body main .top-collection h1 {
@@ -1338,7 +1436,6 @@ body main .top-collection h1::after {
 
 body main .top-collection .container {
   width: 80%;
-  height: 80%;
   border-radius: 0.2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1348,12 +1445,13 @@ body main .top-collection .container {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin: auto;
 }
 
 body main .top-collection .container .clothing,
 body main .top-collection .container .technology {
   width: 45%;
-  height: 90%;
+  padding-bottom: 2rem;
   background: white;
   border-radius: 0.2rem;
   display: -webkit-box;
@@ -1419,10 +1517,10 @@ body main .top-collection .container .technology a {
   color: #048a10;
   margin-top: 2.5rem;
   border: 1px solid #048a10;
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 1rem;
   border-radius: 0.1rem;
-  -webkit-box-shadow: 2px 2px 5px #858282;
-          box-shadow: 2px 2px 5px #858282;
+  -webkit-box-shadow: 1px 1px 3px #858282;
+          box-shadow: 1px 1px 3px #858282;
   position: relative;
   overflow: hidden;
 }
@@ -1452,6 +1550,26 @@ body main .top-collection .container .technology a::before {
   outline-offset: -0.05rem;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
+}
+
+@media (max-width: 900px) {
+  body main .top-collection .container {
+    width: 100%;
+    margin-top: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body main .top-collection .container .clothing,
+  body main .top-collection .container .technology {
+    width: 90%;
+    padding-bottom: 1rem;
+    margin: 1rem auto;
+  }
 }
 
 body main .exclusive {
@@ -1683,18 +1801,24 @@ body main .banners {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   width: 90%;
+  min-height: 80vh;
   margin: 3rem 0;
 }
 
 body main .banners .main {
   background: #048a10;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 45rem;
+          flex: 1 1 45rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1705,7 +1829,7 @@ body main .banners .main {
       -ms-flex-pack: center;
           justify-content: center;
   height: 34rem;
-  width: 55rem;
+  min-width: 30rem;
 }
 
 body main .banners .main:hover img {
@@ -1728,6 +1852,7 @@ body main .banners .side {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 38rem;
 }
 
 body main .banners .side .first,
@@ -1743,14 +1868,15 @@ body main .banners .side .second {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 16rem;
-  width: 35rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30rem;
+          flex: 1 1 30rem;
 }
 
 body main .banners .side .first:hover img,
 body main .banners .side .second:hover img {
-  height: 90%;
-  width: 95%;
+  height: 92%;
+  width: 97%;
 }
 
 body main .banners .side .first img,
@@ -2121,7 +2247,7 @@ body main .final-banner {
 }
 
 body main .final-banner img {
-  width: 40%;
+  width: 45rem;
 }
 
 body main .final-banner .ad-info {
@@ -2138,7 +2264,7 @@ body main .final-banner .ad-info {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 55%;
+  width: 55rem;
   text-align: center;
 }
 

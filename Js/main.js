@@ -1,14 +1,5 @@
 'use strict';
 
-//Inventory Button
-const Inventory = document.getElementById('inventory');
-const sub = document.getElementById('sub');
-
-// Adding event listener to inventory button
-Inventory.addEventListener('click', () => {
-  sub.classList.toggle('sub');
-});
-
 //Back to top button
 const topButton = document.getElementById('top-button');
 const topBtn = document.getElementById('top-btn');
@@ -53,3 +44,17 @@ sortingLinks.forEach(sort => {
     this.classList.add('active');
   });
 });
+
+//Hamburger Menu functionality
+const navSlide = () => {
+  const hamburger = document.querySelector('.hamburger');
+  const nav = document.querySelector('.dropdown');
+
+  hamburger.addEventListener('click', () => {
+    nav.classList.toggle('nav-slide');
+
+    hamburger.classList.toggle('toggle');
+  });
+};
+
+navSlide();
