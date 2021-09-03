@@ -186,7 +186,7 @@ body header .icons {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 20%;
+  gap: 15%;
 }
 
 body header .icons > a {
@@ -326,7 +326,7 @@ body header .dropdown .hamburger {
   }
   body header .dropdown {
     height: 100vh;
-    width: 60vw;
+    width: 100vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -337,10 +337,10 @@ body header .dropdown .hamburger {
     padding-bottom: 5rem;
     top: 3rem;
     right: 0;
-    -webkit-transition: -webkit-transform 0.5s;
-    transition: -webkit-transform 0.5s;
-    transition: transform 0.5s;
-    transition: transform 0.5s, -webkit-transform 0.5s;
+    -webkit-transition: -webkit-transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: -webkit-transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275), -webkit-transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
   }
@@ -360,7 +360,7 @@ body header .dropdown .hamburger {
             justify-content: space-evenly;
     height: 60%;
     margin: auto 8%;
-    width: 3.4rem;
+    width: 3.3rem;
     overflow: hidden;
     cursor: pointer;
   }
@@ -377,7 +377,8 @@ body header .dropdown .hamburger {
     width: 80%;
   }
   body header .toggle .line2 {
-    opacity: 0;
+    -webkit-transform: translateX(calc(100% + 1rem));
+            transform: translateX(calc(100% + 1rem));
   }
   body header .toggle .line3 {
     -webkit-transform: rotate(45deg) translate(-5px, -11px);
