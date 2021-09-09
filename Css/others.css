@@ -16,9 +16,20 @@
   }
 }
 
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -msbox-sizing: border-box;
+}
+
+html,
 body {
-  min-width: 100vh;
+  overflow-x: hidden;
+}
+
+body {
   position: relative;
+  width: 100vw;
 }
 
 body .top-btn {
@@ -44,6 +55,15 @@ body .top-btn {
   text-decoration: none;
   -webkit-transition: 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@media (max-width: 900px) {
+  body .top-btn {
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 0.9rem;
+    right: 5%;
+  }
 }
 
 body .top-btn:hover {
@@ -1067,6 +1087,7 @@ body main .fill-in .wrap {
   width: 60%;
   border-radius: 0.2rem;
   padding: 1rem;
+  margin-right: 10%;
   background: linear-gradient(
     45deg,
     #048a10,
@@ -1255,17 +1276,22 @@ body main .fill-in form .buttons a:hover {
 
 @media (max-width: 800px) {
   body main .fill-in .wrap {
-    width: 90%;
+    width: 95%;
     font-size: 0.8rem;
   }
 
   body main .fill-in form {
-    padding: 1rem;
+    padding: 1rem 0.5rem;
   }
 
   body main .fill-in form .details {
     width: 100%;
     margin: auto 0;
+  }
+
+  body main .fill-in form .details input {
+    height: 2.5rem;
+    margin: 0.5rem 0;
   }
 
   body main .fill-in form .details .check-box a {
@@ -1301,6 +1327,7 @@ body main .fill-up .wrap {
   width: 60%;
   border-radius: 0.2rem;
   padding: 1rem;
+  margin-right: 10%;
   background: linear-gradient(
     45deg,
     #048a10,

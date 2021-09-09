@@ -185,7 +185,7 @@ body .top-button {
     height: 2.5rem;
     width: 2.5rem;
     font-size: 0.9rem;
-    right: 10%;
+    right: 5%;
   }
 }
 
@@ -347,6 +347,10 @@ body header .dropdown .hamburger {
 }
 
 @media (max-width: 1000px) {
+  body header img {
+    width: 7rem;
+  }
+
   body header .icons {
     width: 50%;
     border: none;
@@ -354,6 +358,7 @@ body header .dropdown .hamburger {
   body header .dropdown {
     height: 100vh;
     width: 100vw;
+    margin-top: 8vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -393,6 +398,7 @@ body header .dropdown .hamburger {
     overflow: hidden;
     cursor: pointer;
   }
+
   body header .hamburger div {
     height: 1px;
     width: 90%;
@@ -400,19 +406,20 @@ body header .dropdown .hamburger {
     -webkit-transition: 0.4s ease;
     transition: 0.4s ease;
   }
+
   body header .toggle .line1 {
     -webkit-transform: rotate(-45deg) translate(-5px, 11px);
     transform: rotate(-45deg) translate(-5px, 11px);
-    width: 80%;
   }
+
   body header .toggle .line2 {
     -webkit-transform: translateX(calc(100% + 1rem));
     transform: translateX(calc(100% + 1rem));
   }
+
   body header .toggle .line3 {
     -webkit-transform: rotate(45deg) translate(-5px, -11px);
     transform: rotate(45deg) translate(-5px, -11px);
-    width: 80%;
   }
 }
 
