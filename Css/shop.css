@@ -43,14 +43,15 @@ body main .shop .shop-container {
   display: flex;
   width: 80%;
   margin: 0 auto;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-top: 1rem;
 }
 
 body main .shop .shop-container .side-pane {
-  width: 10%;
+  width: 15%;
+  padding: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,6 +83,26 @@ body main .shop .shop-container .side-pane a:hover img {
   transform: scale(1.1);
 }
 
+@media (max-width: 1000px) {
+  body main .shop .shop-container {
+    width: 95%;
+    padding: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  body main .shop .shop-container .side-pane {
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
+    gap: 2%;
+    width: 100%;
+  }
+}
+
 body main .shop .shop-container .main-details {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -104,7 +125,7 @@ body main .shop .shop-container .main-details .main-box {
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
-  padding: 3rem 0 0 2rem;
+  padding: 2rem auto;
 }
 
 body main .shop .shop-container .main-details .main-box > a {
@@ -136,6 +157,12 @@ body main .shop .shop-container .main-details .main-box .img-info {
   padding: 1rem;
   width: 45%;
   margin-right: 1rem;
+}
+
+@media (max-width: 1000px) {
+  body main .shop .shop-container .main-details .main-box .img-info {
+    width: 100%;
+  }
 }
 
 body main .shop .shop-container .main-details .main-box .img-info > a {
@@ -246,7 +273,7 @@ body
 
 body main .shop .shop-container .main-details .main-box .img-info .amount {
   margin: 2rem 0;
-  width: 50%;
+  width: 14rem;
   height: 2.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -268,7 +295,7 @@ body
   .img-info
   .amount
   input {
-  width: 50%;
+  width: 55%;
   height: 100%;
   background: #f5f5f5;
   padding: 0 1rem;
@@ -375,7 +402,6 @@ body main .shop-extra {
 }
 
 body main .shop-extra > ul {
-  margin: 0.5rem auto;
   border-bottom: 1px solid #c9cacc;
   width: 100%;
   text-align: center;
@@ -386,14 +412,36 @@ body main .shop-extra > ul {
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   padding: 0 7rem;
+  gap: 5%;
 }
 
 body main .shop-extra > ul a {
   height: 2.5rem;
+  font-size: clamp(0.7rem, 1.2vw, 1.3rem);
   font-weight: 500;
   color: #858282;
   background: transparent;
   position: relative;
+}
+
+body main .active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.01rem;
+  background: #048a10;
+}
+
+@media (max-width: 900px) {
+  body main .shop-extra > ul {
+    padding: 0;
+  }
+
+  body main .shop-extra > ul a {
+    font-weight: 700;
+  }
 }
 
 body main .shop-extra .extra-box h3 {
@@ -404,11 +452,13 @@ body main .shop-extra .extra-box .extra-details {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   margin: 2rem 0;
 }
 
 body main .shop-extra .extra-box img {
-  margin-right: 2rem;
+  margin: 1rem 0;
+  width: 20rem;
 }
 
 body main .shop-extra .extra-box .extra-desc {
@@ -422,6 +472,8 @@ body main .shop-extra .extra-box .extra-desc {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  flex: 1 1 60%;
+  margin-left: 1rem;
 }
 
 body main .shop-extra .extra-box .extra-desc p {
@@ -454,21 +506,11 @@ body main .shop-extra .extra-banner img {
 
 body main .shop-extra .extra-banner span {
   position: absolute;
-  bottom: 3rem;
+  bottom: 15%;
   background: #f9f5f4;
-  right: 2.5rem;
+  right: 3%;
   color: #262726;
-  font-size: 3rem;
-}
-
-body main .active::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 0.01rem;
-  background: #048a10;
+  font-size: clamp(1rem, 3vw, 3.5rem);
 }
 
 body main .viewers {
@@ -481,18 +523,19 @@ body main .viewers .swiper-container {
   width: 100%;
   height: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 body main .viewers .swiper-container h3 {
   margin: 1rem 3.4rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.2rem;
   border-bottom: 1px solid #dededf;
 }
 
 body main .viewers .swiper-container .swiper-button-next,
 body main .viewers .swiper-container .swiper-button-prev {
   position: absolute;
-  top: 2.8rem;
+  top: 3rem;
   color: #dededf;
   height: 1rem;
   overflow: hidden;
@@ -508,11 +551,11 @@ body main .viewers .swiper-container .swiper-button-prev:hover {
 }
 
 body main .viewers .swiper-container .swiper-button-next {
-  right: 25rem;
+  left: 70%;
 }
 
 body main .viewers .swiper-container .swiper-button-prev {
-  left: 25rem;
+  left: 25%;
 }
 
 body main .viewers .swiper-container .swiper-slide {
@@ -610,6 +653,21 @@ body main .viewers .swiper-container .swiper-slide > div .view-icons {
   transform-style: preserve-3d;
 }
 
+@media (max-width: 1200px) {
+  body main .viewers .swiper-container h3 {
+    margin: 1rem auto;
+  }
+
+  body main .viewers .swiper-container .swiper-button-next,
+  body main .viewers .swiper-container .swiper-button-prev {
+    top: 4.2rem;
+  }
+
+  body main .viewers .swiper-container .swiper-slide > div .view-icons {
+    opacity: 1;
+  }
+}
+
 body main .viewers .swiper-container .swiper-slide > div .view-icons a {
   padding: 0.5rem 1rem;
   -webkit-box-shadow: 1px 1px 5px #c9cacc;
@@ -686,10 +744,22 @@ body main #reviews .review-box .child {
   display: -ms-flexbox;
   display: flex;
   padding: 1rem 0;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 800px) {
+  body main #reviews {
+    width: 95%;
+  }
+
+  body main #reviews .review-box .child {
+    padding: 0;
+  }
 }
 
 body main #reviews .review-box .child .left {
-  width: 55%;
+  flex: 1 1 45rem;
 }
 
 body main #reviews .review-box .child .left .review {
@@ -753,8 +823,8 @@ body main #reviews .review-box .child .left .review .text .stars {
 }
 
 body main #reviews .review-box .child .right {
-  width: 45%;
-  padding: 0.5rem 1rem;
+  flex: 1 1 30rem;
+  padding: 1rem;
 }
 
 body main #reviews .review-box .child .right p {
@@ -768,7 +838,7 @@ body main #reviews .review-box .child .right h5 {
 
 body main #reviews .review-box .child .right .stars {
   margin: 1rem 0;
-  width: 30%;
+  width: 8rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -873,6 +943,16 @@ body main #reviews .review-box .child .right a {
   background: #048a10;
   border-radius: 0.1rem;
   text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+  body main #reviews .review-box .child .right .inputs input {
+    height: 2.7rem;
+  }
+
+  body main #reviews .review-box .child .right a {
+    padding: 0.5rem 1rem;
+  }
 }
 
 body main #reviews .review-box .child .right a:hover {
@@ -1670,6 +1750,20 @@ body
   transition: 0.5s linear;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
+}
+
+@media (max-width: 800px) {
+  body
+    main
+    .shop-main
+    .shop-sidebar
+    .sidebar-right
+    .right-main
+    .products
+    > div
+    .view-icons {
+    opacity: 1;
+  }
 }
 
 body
