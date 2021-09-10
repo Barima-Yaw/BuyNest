@@ -34,7 +34,7 @@ body {
 
 body .top-btn {
   position: fixed;
-  right: 5rem;
+  right: 5%;
   top: -5rem;
   z-index: 500;
   height: 3.5rem;
@@ -178,16 +178,17 @@ body main .billing {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   min-height: 100vh;
-  margin: 1rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
 }
 
 body main .billing .main-form {
+  flex: 1 1 55rem;
   min-height: 100vh;
-  width: 60vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -195,9 +196,9 @@ body main .billing .main-form {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: left;
 }
 
@@ -220,6 +221,13 @@ body main .billing .main-form form {
   outline: 1px solid #858282;
   outline-offset: -4px;
   padding: 1.5rem;
+}
+
+@media (max-width: 800px) {
+  body main .billing .main-form form {
+    width: 100%;
+    padding: 0.5rem;
+  }
 }
 
 body main .billing .main-form form label {
@@ -292,7 +300,7 @@ body main .billing .main-form form textarea {
 body main .billing aside {
   background: url(../Images/bg/checkout_sidebar_bg.png);
   padding: 1rem;
-  width: 25vw;
+  flex: 0 1 25rem;
   height: 70%;
 }
 
@@ -300,12 +308,12 @@ body main .billing aside h3 {
   margin: 1rem 0;
   text-align: left;
   font-size: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
   border-bottom: 1px dotted #dddddd;
 }
 
 body main .billing aside ul {
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   list-style: none;
   text-align: left;
   padding: 0 0 2rem 0;
@@ -1482,8 +1490,9 @@ body main .fill-up form .buttons {
   -ms-flex-pack: start;
   justify-content: flex-start;
   width: 40%;
+  height: 3rem;
   margin-right: auto;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 
 body main .fill-up form .buttons a {
@@ -1515,12 +1524,16 @@ body main .fill-up form .buttons a:hover {
   }
 
   body main .fill-up form {
-    padding: 1rem;
+    padding: 0;
   }
 
   body main .fill-up form .details {
     width: 100%;
     margin: auto 0;
+  }
+
+  body main .fill-up form .details input {
+    height: 2.5rem;
   }
 
   body main .fill-up form .buttons {
@@ -1641,7 +1654,7 @@ body .terms h1 {
   margin: 0;
 }
 
-body .terms .cart {
+body .terms .cover {
   /*Cart Start*/
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1652,120 +1665,147 @@ body .terms .cart {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  min-height: 70vh;
+  min-height: 30vh;
   width: 90%;
   margin: 0.5rem auto;
   flex-wrap: wrap;
 }
 
-body .terms .cart .table-box {
-  width: 60rem;
+body .terms .cart {
+  flex: 0 0 60rem;
   border: 1px solid #dddddd;
-  padding: 1rem;
-  overflow-x: auto;
 }
 
-body .terms .cart .table-box .table {
-  width: 100%;
-  overflow-x: auto;
-  margin-left: auto;
+body .terms .cart .table {
+  margin: 1rem auto;
 }
 
-body .terms .cart .table-box .wrap {
+@media (max-width: 900px) {
+  body .terms .cover {
+    width: 99%;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  body .terms .cart {
+    border: none;
+  }
+}
+
+body .terms .cart .wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 0 1rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 0.5rem;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid #dcf3de;
 }
 
-body .terms .cart .table-box .wrap a {
+body .terms .cart .wrap .first,
+body .terms .cart .wrap .second {
   padding: 0.5rem 1rem;
-  margin: 0;
   text-transform: uppercase;
   background: #048a10;
   color: #f5f5f5;
-  margin-right: 2rem;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   border-radius: 0.1rem;
-  width: 60rem;
 }
 
-body .terms .cart .table-box .wrap a:hover {
+body .terms .wrap .first {
+  margin: 0 2rem 0 0;
+}
+
+body .terms .wrap .second {
+  margin: 0;
+}
+
+@media (max-width: 452px) {
+  body .terms .cart .wrap .first,
+  body .terms .cart .wrap .second {
+    margin: 0.5rem auto;
+    width: 70%;
+    padding: 0.3rem 0.6rem;
+  }
+}
+
+body .terms .cart .wrap a:hover {
   background: #262726;
 }
 
-body .terms .cart .table-box .wrap .coupon {
+body .terms .cart .wrap .coupon {
   height: 2.5rem;
   margin: 1rem 0;
 }
 
-body .terms .cart .table-box .wrap .coupon input {
+body .terms .cart .wrap .coupon input {
   height: 100%;
   outline: none;
-  width: 20rem;
+  max-width: 25rem;
+  min-width: 20rem;
   background: #f5f5f5;
   border-radius: 0.1rem;
   padding: 0 0.5rem;
 }
 
-body .terms .cart .table-box th {
+body .terms .cart th {
   color: #858282;
 }
 
-body .terms .cart .table-box th a {
+body .terms .cart th a {
   text-decoration: none;
 }
 
-body .terms .cart .table-box th a i {
+body .terms .cart th a i {
   color: #858282;
   font-size: 1rem;
 }
 
-body .terms .cart .table-box th a i:hover {
+body .terms .cart th a i:hover {
   color: #f5f5f5;
 }
 
-body .terms .cart .table-box td {
+body .terms .cart td {
   text-align: left;
   color: #858282;
   vertical-align: middle;
-  max-width: 15rem;
+  margin: 0 auto;
 }
 
-body .terms .cart .table-box td h5 {
+body .terms .cart td h5 {
   font-weight: bold;
   padding: 0;
 }
 
-body .terms .cart .table-box td h5:hover {
+body .terms .cart td h5:hover {
   color: #048a10;
 }
 
-body .terms .cart .table-box td p {
+body .terms .cart td p {
   padding: 0;
   width: 100%;
 }
 
-body .terms .cart .table-box td span {
+body .terms .cart td span {
   font-size: 0.8rem;
   color: #262726;
   padding: 0;
 }
 
-body .terms .cart .table-box td .price {
+body .terms .cart td .price {
   font-size: 1rem;
   font-weight: bold;
   color: #048a10;
 }
 
-body .terms .cart .table-box td .add {
+body .terms .cart td .add {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1778,26 +1818,25 @@ body .terms .cart .table-box td .add {
   align-items: center;
 }
 
-body .terms .cart .table-box td .add p {
+body .terms .cart td .add p {
   font-size: 0.8rem;
   display: block;
 }
 
-body .terms .cart .table-box td .add a {
+body .terms .cart td .add a {
   border: 1px solid #048a10;
   border-radius: 0.1rem;
   color: #858282;
 }
 
-body .terms .cart .slip {
-  width: 20rem;
-  min-height: 58vh;
+body .terms .cover .slip {
+  flex: 0 0 20rem;
   background: url(../Images/bg/cart_sidebar_bg.png);
   margin: 1rem;
-  padding: 0 0.5rem;
+  padding: 0 0.5rem 1rem 0.5rem;
 }
 
-body .terms .cart .slip h3 {
+body .terms .cover .slip h3 {
   margin: 1rem 0;
   text-align: left;
   font-size: clamp(1.5rem, 3vw, 30px);
@@ -1805,7 +1844,7 @@ body .terms .cart .slip h3 {
   border-bottom: 1px dotted #dddddd;
 }
 
-body .terms .cart .slip ul {
+body .terms .cover .slip ul {
   margin: 1rem 0;
   list-style: none;
   text-align: left;
@@ -1820,7 +1859,7 @@ body .terms .cart .slip ul {
   border-bottom: 1px dotted #dddddd;
 }
 
-body .terms .cart .slip ul li {
+body .terms .cover .slip ul li {
   width: 100%;
   margin: 0.5rem 0;
   font-weight: 500;
@@ -1833,7 +1872,7 @@ body .terms .cart .slip ul li {
   text-transform: uppercase;
 }
 
-body .terms .cart .slip ul li span {
+body .terms .cover .slip ul li span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1844,16 +1883,16 @@ body .terms .cart .slip ul li span {
   width: 50%;
 }
 
-body .terms .cart .slip ul li span .group {
+body .terms .cover .slip ul li span .group {
   margin: 0.5rem 0;
 }
 
-body .terms .cart .slip ul li span .group label {
+body .terms .cover .slip ul li span .group label {
   font-weight: normal;
   text-transform: uppercase;
 }
 
-body .terms .cart .slip p {
+body .terms .cover .slip p {
   width: 100%;
   margin: 0.5rem 0;
   font-weight: 500;
@@ -1872,7 +1911,7 @@ body .terms .cart .slip p {
   border-bottom: 1px dotted #dddddd;
 }
 
-body .terms .cart .slip p span {
+body .terms .cover .slip p span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1880,7 +1919,7 @@ body .terms .cart .slip p span {
   font-size: 1.5rem;
 }
 
-body .terms .cart .slip a {
+body .terms .cover .slip a {
   border: 1px solid #048a10;
   padding: 0.5rem 1rem;
   -webkit-box-shadow: 2px 2px 5px #a9aaa9;
@@ -1968,10 +2007,9 @@ body .table th a i:hover {
 }
 
 body .table td {
-  text-align: center;
+  text-align: left;
   color: #858282;
   vertical-align: middle;
-  max-width: 15rem;
 }
 
 body .table td h5 {
@@ -1980,6 +2018,10 @@ body .table td h5 {
 
 body .table td h5:hover {
   color: #048a10;
+}
+
+body .table td p {
+  padding: 0;
 }
 
 body .table td span {
@@ -2008,7 +2050,17 @@ body .table td .add {
 
 body .table td .add p {
   font-size: 0.8rem;
-  display: block;
+  display: inline-block;
+}
+
+@media (max-width: 900px) {
+  body .table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    border: 1px solid #dddddd;
+    width: 99%;
+  }
 }
 
 body .table td .add a {
