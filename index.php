@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -50,19 +50,19 @@
 
         <!-- Navbar elements -->
         <nav class="dropdown">
-          <a href="index.html" class="home list-item">
+          <a href="index.php" class="home list-item">
               Home
           </a>
-          <a href="Html/about.html" class="list-item about">About</a>
+          <a href="PHP/about.php" class="list-item about">About</a>
           <!-- <div class="pages">
             <button class="list-item">
               Pages <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </button>
             <ul>
-              <li><a href="Html/account.html">My Account</a></li>
-              <li><a href="Html/404.html">404 page</a></li>
+              <li><a href="PHP/account.php">My Account</a></li>
+              <li><a href="PHP/404.php">404 page</a></li>
               <li>
-                <a href="Html/terms and conditions.html"
+                <a href="PHP/terms and conditions.php"
                   >Terms and conditions</a
                 >
               </li>
@@ -73,9 +73,9 @@
               Blog <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </button>
             <ul>
-              <li><a href="Html/standardBlog.html">Standard Blog</a></li>
-              <li><a href="Html/classicBlog.html">Classic Blog</a></li>
-              <li><a href="Html/blogDetails.html">Blog Details</a></li>
+              <li><a href="PHP/standardBlog.php">Standard Blog</a></li>
+              <li><a href="PHP/classicBlog.php">Classic Blog</a></li>
+              <li><a href="PHP/blogDetails.php">Blog Details</a></li>
             </ul>
           </div> -->
           <!-- <div class="shop">
@@ -83,28 +83,28 @@
               Shop <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </button>
             <ul>
-              <li><a href="Html/shopSidebar.html">Shop-sidebar</a></li>
-              <li><a href="Html/shopDetails.html">Shop-details</a></li>
-              <li><a href="Html/wishlist.html">Wishlist</a></li>
-              <li><a href="Html/checkout.html">Checkout</a></li>
+              <li><a href="PHP/shopSidebar.php">Shop-sidebar</a></li>
+              <li><a href="PHP/shopDetails.php">Shop-details</a></li>
+              <li><a href="PHP/wishlist.php">Wishlist</a></li>
+              <li><a href="PHP/checkout.php">Checkout</a></li>
             </ul>
           </div> -->
-          <a href="Html/special.html" class="list-item special">Special</a>
-          <a href="Html/contacts.html" class="list-item contacts">Contacts</a>
+          <a href="PHP/special.php" class="list-item special">Special</a>
+          <a href="PHP/contacts.php" class="list-item contacts">Contacts</a>
         </nav>
         <!-- Navbar End  -->
 
         <!-- Icons  -->
         <div class="icons">
-          <a href="Html/cart.html">
+          <a href="PHP/cart.php">
             <i class="fas fa-cart-arrow-down"></i>
             Cart
           </a>
-          <a href="Html/wishlist.html">
+          <a href="PHP/wishlist.php">
             <i class="far fa-heart"></i>
             Wishlist
           </a>
-          <a href="Html/account.html">
+          <a href="PHP/account.php">
             <i class="fas fa-user-circle"></i>
             Profile
           </a>
@@ -135,48 +135,48 @@
                     <div class="menu-items">
                       <li>Accessories & Parts</li>
                         <ol>
-                          <a href="Html/shopSidebar.html">Cables & Adapters</a>
-                          <a href="Html/shopSidebar.html">Batteries</a>
-                          <a href="Html/shopSidebar.html">Chargers</a>
-                          <a href="Html/shopSidebar.html">TV Receivers</a>
+                          <a href="PHP/shopSidebar.php">Cables & Adapters</a>
+                          <a href="PHP/shopSidebar.php">Batteries</a>
+                          <a href="PHP/shopSidebar.php">Chargers</a>
+                          <a href="PHP/shopSidebar.php">TV Receivers</a>
                         </ol>
                     </div>
                     <div class="menu-items">
                         <li>Smart Electronics</li>
                         <ol>
-                          <a href="Html/shopSidebar.html">Cables & Adapters</a>
-                          <a href="Html/shopSidebar.html">Batteries</a>
-                          <a href="Html/shopSidebar.html">Chargers</a>
-                          <a href="Html/shopSidebar.html">TV Receivers</a>
+                          <a href="PHP/shopSidebar.php">Cables & Adapters</a>
+                          <a href="PHP/shopSidebar.php">Batteries</a>
+                          <a href="PHP/shopSidebar.php">Chargers</a>
+                          <a href="PHP/shopSidebar.php">TV Receivers</a>
                         </ol>
                       </div>
                       <div class="menu-items">
                         <li>Accessories & Parts</li>
                         <ol>
-                          <a href="Html/shopSidebar.html">Cables & Adapters</a>
-                          <a href="Html/shopSidebar.html">Batteries</a>
-                          <a href="Html/shopSidebar.html">Chargers</a>
-                          <a href="Html/shopSidebar.html">TV Receivers</a>
+                          <a href="PHP/shopSidebar.php">Cables & Adapters</a>
+                          <a href="PHP/shopSidebar.php">Batteries</a>
+                          <a href="PHP/shopSidebar.php">Chargers</a>
+                          <a href="PHP/shopSidebar.php">TV Receivers</a>
                         </ol>
                         </div>  
                         <div class="menu-items">
   
                         <li>Electronic Cigarettes</li>
                         <ol>
-                          <a href="Html/shopSidebar.html">Cables & Adapters</a>
-                          <a href="Html/shopSidebar.html">Batteries</a>
-                          <a href="Html/shopSidebar.html">Chargers</a>
-                          <a href="Html/shopSidebar.html">TV Receivers</a>
+                          <a href="PHP/shopSidebar.php">Cables & Adapters</a>
+                          <a href="PHP/shopSidebar.php">Batteries</a>
+                          <a href="PHP/shopSidebar.php">Chargers</a>
+                          <a href="PHP/shopSidebar.php">TV Receivers</a>
                         </ol>
                         </div>
                         <div class="menu-items">
   
                         <li>Portable Audio & Video</li>
                         <ol>
-                          <a href="Html/shopSidebar.html">Cables & Adapters</a>
-                          <a href="Html/shopSidebar.html">Batteries</a>
-                          <a href="Html/shopSidebar.html">Chargers</a>
-                          <a href="Html/shopSidebar.html">TV Receivers</a>
+                          <a href="PHP/shopSidebar.php">Cables & Adapters</a>
+                          <a href="PHP/shopSidebar.php">Batteries</a>
+                          <a href="PHP/shopSidebar.php">Chargers</a>
+                          <a href="PHP/shopSidebar.php">TV Receivers</a>
                         </ol>
                         </div>  
                         <div class="menu-items">
@@ -196,48 +196,48 @@
                     <div class="menu-items">
                       <li>Accessories & Parts</li>
                         <ol>
-                          <a href="Html/shopSidebar.html">Cables & Adapters</a>
-                          <a href="Html/shopSidebar.html">Batteries</a>
-                          <a href="Html/shopSidebar.html">Chargers</a>
-                          <a href="Html/shopSidebar.html">TV Receivers</a>
+                          <a href="PHP/shopSidebar.php">Cables & Adapters</a>
+                          <a href="PHP/shopSidebar.php">Batteries</a>
+                          <a href="PHP/shopSidebar.php">Chargers</a>
+                          <a href="PHP/shopSidebar.php">TV Receivers</a>
                         </ol>
                     </div>
                     <div class="menu-items">
                         <li>Smart Electronics</li>
                         <ol>
-                          <a href="Html/shopSidebar.html">Cables & Adapters</a>
-                          <a href="Html/shopSidebar.html">Batteries</a>
-                          <a href="Html/shopSidebar.html">Chargers</a>
-                          <a href="Html/shopSidebar.html">TV Receivers</a>
+                          <a href="PHP/shopSidebar.php">Cables & Adapters</a>
+                          <a href="PHP/shopSidebar.php">Batteries</a>
+                          <a href="PHP/shopSidebar.php">Chargers</a>
+                          <a href="PHP/shopSidebar.php">TV Receivers</a>
                         </ol>
                       </div>
                       <div class="menu-items">
                         <li>Accessories & Parts</li>
                         <ol>
-                          <a href="Html/shopSidebar.html">Cables & Adapters</a>
-                          <a href="Html/shopSidebar.html">Batteries</a>
-                          <a href="Html/shopSidebar.html">Chargers</a>
-                          <a href="Html/shopSidebar.html">TV Receivers</a>
+                          <a href="PHP/shopSidebar.php">Cables & Adapters</a>
+                          <a href="PHP/shopSidebar.php">Batteries</a>
+                          <a href="PHP/shopSidebar.php">Chargers</a>
+                          <a href="PHP/shopSidebar.php">TV Receivers</a>
                         </ol>
                         </div>  
                         <div class="menu-items">
   
                         <li>Electronic Cigarettes</li>
                         <ol>
-                          <a href="Html/shopSidebar.html">Cables & Adapters</a>
-                          <a href="Html/shopSidebar.html">Batteries</a>
-                          <a href="Html/shopSidebar.html">Chargers</a>
-                          <a href="Html/shopSidebar.html">TV Receivers</a>
+                          <a href="PHP/shopSidebar.php">Cables & Adapters</a>
+                          <a href="PHP/shopSidebar.php">Batteries</a>
+                          <a href="PHP/shopSidebar.php">Chargers</a>
+                          <a href="PHP/shopSidebar.php">TV Receivers</a>
                         </ol>
                         </div>
                         <div class="menu-items">
   
                         <li>Portable Audio & Video</li>
                         <ol>
-                          <a href="Html/shopSidebar.html">Cables & Adapters</a>
-                          <a href="Html/shopSidebar.html">Batteries</a>
-                          <a href="Html/shopSidebar.html">Chargers</a>
-                          <a href="Html/shopSidebar.html">TV Receivers</a>
+                          <a href="PHP/shopSidebar.php">Cables & Adapters</a>
+                          <a href="PHP/shopSidebar.php">Batteries</a>
+                          <a href="PHP/shopSidebar.php">Chargers</a>
+                          <a href="PHP/shopSidebar.php">TV Receivers</a>
                         </ol>
                         </div>  
                         <div class="menu-items">
@@ -247,12 +247,12 @@
                     </div>
                   </div>
                 </div>
-              <li><a href="Html/shopSidebar.html">Batteries</a></li>
-              <li><a href="Html/shopSidebar.html">Bags & Shoes</a></li>
-              <li><a href="Html/shopSidebar.html">Electonic cigarettes</a></li>
-              <li><a href="Html/shopSidebar.html">Audio & video</a></li>
-              <li><a href="Html/shopSidebar.html">Television</a></li>
-              <li><a href="Html/shopSidebar.html">TV Receivers</a></li>
+              <li><a href="PHP/shopSidebar.php">Batteries</a></li>
+              <li><a href="PHP/shopSidebar.php">Bags & Shoes</a></li>
+              <li><a href="PHP/shopSidebar.php">Electonic cigarettes</a></li>
+              <li><a href="PHP/shopSidebar.php">Audio & video</a></li>
+              <li><a href="PHP/shopSidebar.php">Television</a></li>
+              <li><a href="PHP/shopSidebar.php">TV Receivers</a></li>
               <div class="pop-left">
                 <button>
                   <a href="#"> Projectors</a>
@@ -262,48 +262,48 @@
                   <div class="menu-items">
                     <li>Accessories & Parts</li>
                       <ol>
-                        <a href="Html/shopSidebar.html">Cables & Adapters</a>
-                        <a href="Html/shopSidebar.html">Batteries</a>
-                        <a href="Html/shopSidebar.html">Chargers</a>
-                        <a href="Html/shopSidebar.html">TV Receivers</a>
+                        <a href="PHP/shopSidebar.php">Cables & Adapters</a>
+                        <a href="PHP/shopSidebar.php">Batteries</a>
+                        <a href="PHP/shopSidebar.php">Chargers</a>
+                        <a href="PHP/shopSidebar.php">TV Receivers</a>
                       </ol>
                   </div>
                   <div class="menu-items">
                       <li>Smart Electronics</li>
                       <ol>
-                        <a href="Html/shopSidebar.html">Cables & Adapters</a>
-                        <a href="Html/shopSidebar.html">Batteries</a>
-                        <a href="Html/shopSidebar.html">Chargers</a>
-                        <a href="Html/shopSidebar.html">TV Receivers</a>
+                        <a href="PHP/shopSidebar.php">Cables & Adapters</a>
+                        <a href="PHP/shopSidebar.php">Batteries</a>
+                        <a href="PHP/shopSidebar.php">Chargers</a>
+                        <a href="PHP/shopSidebar.php">TV Receivers</a>
                       </ol>
                     </div>
                     <div class="menu-items">
                       <li>Accessories & Parts</li>
                       <ol>
-                        <a href="Html/shopSidebar.html">Cables & Adapters</a>
-                        <a href="Html/shopSidebar.html">Batteries</a>
-                        <a href="Html/shopSidebar.html">Chargers</a>
-                        <a href="Html/shopSidebar.html">TV Receivers</a>
+                        <a href="PHP/shopSidebar.php">Cables & Adapters</a>
+                        <a href="PHP/shopSidebar.php">Batteries</a>
+                        <a href="PHP/shopSidebar.php">Chargers</a>
+                        <a href="PHP/shopSidebar.php">TV Receivers</a>
                       </ol>
                       </div>  
                       <div class="menu-items">
 
                       <li>Electronic Cigarettes</li>
                       <ol>
-                        <a href="Html/shopSidebar.html">Cables & Adapters</a>
-                        <a href="Html/shopSidebar.html">Batteries</a>
-                        <a href="Html/shopSidebar.html">Chargers</a>
-                        <a href="Html/shopSidebar.html">TV Receivers</a>
+                        <a href="PHP/shopSidebar.php">Cables & Adapters</a>
+                        <a href="PHP/shopSidebar.php">Batteries</a>
+                        <a href="PHP/shopSidebar.php">Chargers</a>
+                        <a href="PHP/shopSidebar.php">TV Receivers</a>
                       </ol>
                       </div>
                       <div class="menu-items">
 
                       <li>Portable Audio & Video</li>
                       <ol>
-                        <a href="Html/shopSidebar.html">Cables & Adapters</a>
-                        <a href="Html/shopSidebar.html">Batteries</a>
-                        <a href="Html/shopSidebar.html">Chargers</a>
-                        <a href="Html/shopSidebar.html">TV Receivers</a>
+                        <a href="PHP/shopSidebar.php">Cables & Adapters</a>
+                        <a href="PHP/shopSidebar.php">Batteries</a>
+                        <a href="PHP/shopSidebar.php">Chargers</a>
+                        <a href="PHP/shopSidebar.php">TV Receivers</a>
                       </ol>
                       </div>  
                       <div class="menu-items">
@@ -313,8 +313,8 @@
                   </div>
                 </div>
               </div>
-              <li><a href="Html/shopSidebar.html">Audio Amplifier Boards</a></li>
-              <li><a href="Html/shopSidebar.html">TV Sticks</a></li>
+              <li><a href="PHP/shopSidebar.php">Audio Amplifier Boards</a></li>
+              <li><a href="PHP/shopSidebar.php">TV Sticks</a></li>
             </ul>
           </div>
           <div class="divide"></div>
@@ -357,7 +357,7 @@
                 <li><a href="#"> €/EUR</a></li>
               </ul>
             </button>
-            <a href="Html/contacts.html"><i class="far fa-question-circle"></i> Help</a>
+            <a href="PHP/contacts.php"><i class="far fa-question-circle"></i> Help</a>
           </div>
       </section>
       <!-- Search, Inventory and Extras end -->
@@ -383,7 +383,7 @@
               />
               <div class="carousel-caption d-md-block">
                 <h5>Save Up To 70% On Deals</h5>
-                <a href="Html/shopSidebar.html">Shop Now</a>
+                <a href="PHP/shopSidebar.php">Shop Now</a>
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="10000">
@@ -394,7 +394,7 @@
               />
               <div class="carousel-caption d-md-block">
                 <h5>Mega Tv Deals Available</h5>
-                <a href="Html/shopSidebar.html">Shop Now</a>
+                <a href="PHP/shopSidebar.php">Shop Now</a>
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="10000">
@@ -405,7 +405,7 @@
               />
               <div class="carousel-caption d-md-block">
                 <h5>Get On The Runway!!!</h5>
-                <a href="Html/shopSidebar.html">Shop Now</a>
+                <a href="PHP/shopSidebar.php">Shop Now</a>
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="10000">
@@ -416,7 +416,7 @@
               />
               <div class="carousel-caption d-md-block">
                 <h5>Latest And Greatest Technology</h5>
-                <a href="Html/shopSidebar.html">Shop Now</a>
+                <a href="PHP/shopSidebar.php">Shop Now</a>
               </div>
             </div>
           </div>
@@ -432,13 +432,13 @@
 
       <section class="more">
         <div class="display">
-          <img src="/Images/images/top_cat_banner01.jpg" alt="">
+          <img src="Images/images/top_cat_banner01.jpg" alt="">
         </div>
         <div class="display">
-          <img src="/Images/images/top_cat_banner02.jpg" alt="">
+          <img src="Images/images/top_cat_banner02.jpg" alt="">
         </div>
         <div class="display">
-          <img src="/Images/images/top_cat_banner03.jpg" alt="">
+          <img src="Images/images/top_cat_banner03.jpg" alt="">
         </div>
       </section>
 
@@ -491,7 +491,7 @@
                   <h3>Vaccum Cleaner</h3>
                   <span>US$17.00</span>  <span>⟪ 50% off ⟫</span>
                 </div>
-              <a href="/Html/shopSidebar.html">Shop Now</a>
+              <a href="/PHP/shopSidebar.php">Shop Now</a>
             </div>
                 <div class="swiper-slide">
                   <img src="Images/product/sd_item02.png"/>
@@ -499,7 +499,7 @@
                   <h3>Digital Tag</h3>
                   <span>US$17.00</span>  <span>⟪ 50% off ⟫</span>
                 </div>
-              <a href="/Html/shopSidebar.html">Shop Now</a>
+              <a href="/PHP/shopSidebar.php">Shop Now</a>
             </div>
                 <div class="swiper-slide">
                   <img src="Images/product/sd_item03.png"/>
@@ -507,7 +507,7 @@
                   <h3>Vaccum Cleaner</h3>
                   <span>US$17.00</span>  <span>⟪ 50% off ⟫</span>
                 </div>
-              <a href="/Html/shopSidebar.html">Shop Now</a>
+              <a href="/PHP/shopSidebar.php">Shop Now</a>
             </div>
                 <div class="swiper-slide">
                   <img src="Images/product/sd_item04.png"/>
@@ -515,7 +515,7 @@
                   <h3>Digital Camera</h3>
                   <span>US$17.00</span>  <span>⟪ 50% off ⟫</span>
                 </div>
-              <a href="/Html/shopSidebar.html">Shop Now</a>
+              <a href="/PHP/shopSidebar.php">Shop Now</a>
             </div>
                 <div class="swiper-slide">
                   <img src="Images/product/sd_item05.png"/>
@@ -523,7 +523,7 @@
                   <h3>Laptop</h3>
                   <span>US$17.00</span>  <span>⟪ 50% off ⟫</span>
                 </div>
-              <a href="/Html/shopSidebar.html">Shop Now</a>
+              <a href="/PHP/shopSidebar.php">Shop Now</a>
             </div>
                 <div class="swiper-slide">
                   <img src="Images/product/sd_item06.png"/>
@@ -531,7 +531,7 @@
                   <h3>Web Cam</h3>
                   <span>US$17.00</span>  <span>⟪ 50% off ⟫</span>
                 </div>
-              <a href="/Html/shopSidebar.html">Shop Now</a>
+              <a href="/PHP/shopSidebar.php">Shop Now</a>
             </div>
                 <div class="swiper-slide">
                   <img src="Images/product/sd_item07.png"/>
@@ -539,7 +539,7 @@
                   <h3>Air Conditioner</h3>
                   <span>US$17.00</span>  <span>⟪ 50% off ⟫</span>
                 </div>
-              <a href="/Html/shopSidebar.html">Shop Now</a>
+              <a href="/PHP/shopSidebar.php">Shop Now</a>
             </div>
                 <div class="swiper-slide">
                   <img src="Images/product/sd_item08.png"/>
@@ -547,7 +547,7 @@
                   <h3>Game Controller</h3>
                   <span>US$17.00</span>  <span>⟪ 50% off ⟫</span>
                 </div>
-              <a href="/Html/shopSidebar.html">Shop Now</a>
+              <a href="/PHP/shopSidebar.php">Shop Now</a>
             </div>
                 <div class="swiper-slide">
                   <img src="Images/product/special_item_img01.png"/>
@@ -555,7 +555,7 @@
                   <h3>Leather Watch</h3>
                   <span>US$17.00</span>  <span>⟪ 50% off ⟫</span>
                 </div>
-                <a href="/Html/shopSidebar.html">Shop Now</a>
+                <a href="/PHP/shopSidebar.php">Shop Now</a>
                 </div>
                 <div class="swiper-slide">
                   <img src="Images/product/special_item_img02.png"/>
@@ -563,7 +563,7 @@
                   <h3>Headphones</h3>
                   <span>US$17.00</span>  <span>⟪ 50% off ⟫</span>
                 </div>
-                <a href="/Html/shopSidebar.html">Shop Now</a>
+                <a href="/PHP/shopSidebar.php">Shop Now</a>
                 </div>
               </div>
               <div class="swiper-button-next"></div>
@@ -593,7 +593,7 @@
               <img src="Images/product/clothing_item03.jpg" />
               <img src="Images/product/clothing_item04.jpg" />
             </div>
-            <a href="Html/special.html">See More...</a>
+            <a href="PHP/special.php">See More...</a>
           </div>
           <div class="technology">
             <h3>Technology Shop</h3>
@@ -603,7 +603,7 @@
               <img src="Images/product/super_deal_item03.jpg" />
               <img src="Images/product/super_deal_item04.jpg" />
             </div>
-            <a href="Html/special.html" >See More...</a>
+            <a href="PHP/special.php" >See More...</a>
           </div>
         </div>
       </section>
@@ -624,10 +624,10 @@
               <div class="img-box">
                   <img src="Images/product/exclusive_product01.jpg"/>
                   <div class="interact">
-                    <a href="Html/cart.html"><i class="fas fa-cart-plus"></i></a>
-                    <a href="Html/wishlist.html"><i class="far fa-heart"></i></a>
+                    <a href="PHP/cart.php"><i class="fas fa-cart-plus"></i></a>
+                    <a href="PHP/wishlist.php"><i class="far fa-heart"></i></a>
                   </div>
-                  <a href="Html/shopSidebar.html">Shop Now</i></a>
+                  <a href="PHP/shopSidebar.php">Shop Now</i></a>
               </div>
               <div class="product-details">
                 <div class="rating">
@@ -644,10 +644,10 @@
               <div class="img-box">
                   <img src="Images/product/exclusive_product02.jpg"/>
                   <div class="interact">
-                    <a href="Html/cart.html"><i class="fas fa-cart-plus"></i></a>
-                    <a href="Html/wishlist.html"><i class="far fa-heart"></i></a>
+                    <a href="PHP/cart.php"><i class="fas fa-cart-plus"></i></a>
+                    <a href="PHP/wishlist.php"><i class="far fa-heart"></i></a>
                   </div>
-                  <a href="Html/shopSidebar.html">Shop Now</i></a>
+                  <a href="PHP/shopSidebar.php">Shop Now</i></a>
               </div>
               <div class="product-details">
                 <div class="rating">
@@ -664,10 +664,10 @@
               <div class="img-box">
                   <img src="Images/product/exclusive_product03.jpg"/>
                   <div class="interact">
-                    <a href="Html/cart.html"><i class="fas fa-cart-plus"></i></a>
-                    <a href="Html/wishlist.html"><i class="far fa-heart"></i></a>
+                    <a href="PHP/cart.php"><i class="fas fa-cart-plus"></i></a>
+                    <a href="PHP/wishlist.php"><i class="far fa-heart"></i></a>
                   </div>
-                  <a href="Html/shopSidebar.html">Shop Now</i></a>
+                  <a href="PHP/shopSidebar.php">Shop Now</i></a>
               </div>
               <div class="product-details">
                 <div class="rating">
@@ -684,10 +684,10 @@
               <div class="img-box">
                   <img src="Images/product/exclusive_product04.jpg"/>
                   <div class="interact">
-                    <a href="Html/cart.html"><i class="fas fa-cart-plus"></i></a>
-                    <a href="Html/wishlist.html"><i class="far fa-heart"></i></a>
+                    <a href="PHP/cart.php"><i class="fas fa-cart-plus"></i></a>
+                    <a href="PHP/wishlist.php"><i class="far fa-heart"></i></a>
                   </div>
-                  <a href="Html/shopSidebar.html">Shop Now</i></a>
+                  <a href="PHP/shopSidebar.php">Shop Now</i></a>
               </div>
               <div class="product-details">
                 <div class="rating">
@@ -704,10 +704,10 @@
               <div class="img-box">
                   <img src="Images/product/exclusive_product05.jpg"/>
                   <div class="interact">
-                    <a href="Html/cart.html"><i class="fas fa-cart-plus"></i></a>
-                    <a href="Html/wishlist.html"><i class="far fa-heart"></i></a>
+                    <a href="PHP/cart.php"><i class="fas fa-cart-plus"></i></a>
+                    <a href="PHP/wishlist.php"><i class="far fa-heart"></i></a>
                   </div>
-                  <a href="Html/shopSidebar.html">Shop Now</i></a>
+                  <a href="PHP/shopSidebar.php">Shop Now</i></a>
               </div>
               <div class="product-details">
                 <div class="rating">
@@ -724,10 +724,10 @@
               <div class="img-box">
                   <img src="Images/product/exclusive_product06.jpg"/>
                   <div class="interact">
-                    <a href="Html/cart.html"><i class="fas fa-cart-plus"></i></a>
-                    <a href="Html/wishlist.html"><i class="far fa-heart"></i></a>
+                    <a href="PHP/cart.php"><i class="fas fa-cart-plus"></i></a>
+                    <a href="PHP/wishlist.php"><i class="far fa-heart"></i></a>
                   </div>
-                  <a href="Html/shopSidebar.html">Shop Now</i></a>
+                  <a href="PHP/shopSidebar.php">Shop Now</i></a>
               </div>
               <div class="product-details">
                 <div class="rating">
@@ -788,7 +788,7 @@
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width:10%; height: 6px; background: #048a10;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <a href="/Html/shopSidebar.html">Shop Now</a>
+              <a href="/PHP/shopSidebar.php">Shop Now</a>
             </div>
                 <li class="glide__slide">
               <img src="Images/product/most_popular_02.jpg" alt="product">
@@ -805,7 +805,7 @@
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width:10%; height: 6px; background: #048a10;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <a href="/Html/shopSidebar.html">Shop Now</a>
+              <a href="/PHP/shopSidebar.php">Shop Now</a>
             </div>
                 <li class="glide__slide">
               <img src="Images/product/most_popular_03.jpg" alt="product">
@@ -822,7 +822,7 @@
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width:10%; height: 6px; background: #048a10;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <a href="/Html/shopSidebar.html">Shop Now</a>
+              <a href="/PHP/shopSidebar.php">Shop Now</a>
             </div>
                 <li class="glide__slide">
               <img src="Images/product/most_popular_01.jpg" alt="product">
@@ -839,7 +839,7 @@
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width:10%; height: 6px; background: #048a10;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <a href="/Html/shopSidebar.html">Shop Now</a>
+              <a href="/PHP/shopSidebar.php">Shop Now</a>
             </div>
                 <li class="glide__slide">
               <img src="Images/product/most_popular_02.jpg" alt="product">
@@ -856,7 +856,7 @@
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width:10%; height: 6px; background: #048a10;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <a href="/Html/shopSidebar.html">Shop Now</a>
+              <a href="/PHP/shopSidebar.php">Shop Now</a>
             </div>
                 </li>
                 <li class="glide__slide">
@@ -874,7 +874,7 @@
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width:10%; height: 6px; background: #048a10;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <a href="/Html/shopSidebar.html">Shop Now</a>
+              <a href="/PHP/shopSidebar.php">Shop Now</a>
             </div>
                 </li>
               </ul>
@@ -935,7 +935,7 @@
         <div class="ad-info">
           <h2>Get The Best Smart Watch Deals</h2>
           <p>Up to <span>35%</span> off</p>
-          <a href="Html/shopSidebar.html">Shop Now</a>
+          <a href="PHP/shopSidebar.php">Shop Now</a>
         </div>
       </div>
     </main>
@@ -953,7 +953,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="footer-widget mb-50">
               <div class="footer-logo mb-30">
-                <a href="index.html"
+                <a href="index.php"
                   ><img src="Images/logo/IMG_7328 - Copy1.heic" alt=""
                 /></a>
               </div>
@@ -978,11 +978,11 @@
                 <h5>Customer Service</h5>
               </div>
               <div class="fw-link">
-                <li><a href="Html/contacts.html">Help Center</a></li>
-                <li><a href="Html/terms and conditions.html">Returns</a></li>
-                <li><a href="Html/terms and conditions.html">Product Recalls</a></li>
-                <li><a href="Html/about.html">Accessibility</a></li>
-                <li><a href="Html/contacts.html">Contact Us</a></li>
+                <li><a href="PHP/contacts.php">Help Center</a></li>
+                <li><a href="PHP/terms and conditions.php">Returns</a></li>
+                <li><a href="PHP/terms and conditions.php">Product Recalls</a></li>
+                <li><a href="PHP/about.php">Accessibility</a></li>
+                <li><a href="PHP/contacts.php">Contact Us</a></li>
               </div>
             </div>
           </div>
@@ -992,11 +992,11 @@
                 <h5>Quick Links</h5>
               </div>
               <div class="fw-link">
-                <li><a href="Html/terms and conditions.html">Return Policy</a></li>
-                <li><a href="Html/terms and conditions.html">Terms Of Use</a></li>
-                <li><a href="Html/terms and conditions.html">Security</a></li>
-                <li><a href="Html/terms and conditions.html">Privacy</a></li>
-                <li><a href="Html/about.html">Store Pickup</a></li>
+                <li><a href="PHP/terms and conditions.php">Return Policy</a></li>
+                <li><a href="PHP/terms and conditions.php">Terms Of Use</a></li>
+                <li><a href="PHP/terms and conditions.php">Security</a></li>
+                <li><a href="PHP/terms and conditions.php">Privacy</a></li>
+                <li><a href="PHP/about.php">Store Pickup</a></li>
               </div>
             </div>
           </div>
@@ -1014,7 +1014,7 @@
                 <li>
                   <i class="fas fa-envelope-open"></i
                   ><a
-                    href="../../cdn-cgi/l/email-protection.html"
+                    href="../../cdn-cgi/l/email-protection.php"
                     class="__cf_email__"
                     data-cfemail="faa98f8a8a95888eba93949c95d4b99597"
                     >[email&#160;protected]</a
@@ -1034,7 +1034,7 @@
               <div class="col-lg-6 col-md-6 text">
                 <div class="copyright-text">
                   <p>
-                    Copyright © 2021 <a href="index.html">BuyNest</a> All Rights Reserved.
+                    Copyright © 2021 <a href="index.php">BuyNest</a> All Rights Reserved.
                   </p>
                 </div>
               </div>
