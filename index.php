@@ -37,7 +37,7 @@
     />
     <!-- End of Stylesheets -->
 
-    <title>BuyNest-eCommerce Template</title>
+    <title>BuyNest-eCommerce</title>
   </head>
 
   <body>

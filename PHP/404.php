@@ -19,7 +19,7 @@
               <a href="#"><i class="fas fa-search"></i></a>
             </div>
             <div class="button">
-              <a href="../index.html"> Go Back </a>
+              <a href="../index.php"> Go Back </a>
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="footer-widget mb-50">
               <div class="footer-logo mb-30">
-                <a href="index.html"
+                <a href="index.php"
                   ><img src="../Images/logo/IMG_7328 - Copy1.heic" alt=""
                 /></a>
               </div>
@@ -115,7 +115,7 @@
                 <li>
                   <i class="fas fa-envelope-open"></i
                   ><a
-                    href="../../cdn-cgi/l/email-protection.html"
+                    href="../../cdn-cgi/l/email-protection.php"
                     class="__cf_email__"
                     data-cfemail="faa98f8a8a95888eba93949c95d4b99597"
                     >[email&#160;protected]</a

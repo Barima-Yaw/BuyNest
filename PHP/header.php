@@ -20,6 +20,7 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="../Css/style.css" />
     <link rel="stylesheet" href="../Css/others.css" />
+    <link rel="stylesheet" href="../Css/shop.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"

@@ -74,6 +74,20 @@ body main {
   padding-top: 10vh;
 }
 
+body main .error {
+  color: rgb(255, 83, 52);
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0.5rem auto;
+}
+
+body main .success {
+  color: #048a10;
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0.5rem auto;
+}
+
 body main .new {
   text-align: center;
 }
@@ -1291,16 +1305,20 @@ body main .fill-in form .buttons {
   padding: 1rem 0;
 }
 
-body main .fill-in form .buttons a {
+body main .fill-in form .buttons a,
+body main .fill-in form .buttons button {
   border: 1px solid white;
   border-radius: 0.1rem;
   padding: 0.2rem 0.8rem;
   text-transform: uppercase;
   font-weight: 500;
   margin-right: 3rem;
+  background: transparent;
+  color: white;
 }
 
-body main .fill-in form .buttons a:hover {
+body main .fill-in form .buttons a:hover,
+body main .fill-in form .buttons button:hover {
   background: linear-gradient(
     45deg,
     #048a10,
@@ -1406,7 +1424,7 @@ body main .fill-up a {
   color: white;
 }
 
-body main .fill-up a:hover:hover {
+body main .fill-up a:hover {
   background: linear-gradient(
     45deg,
     #048a10,
@@ -1457,8 +1475,8 @@ body main .fill-up form .details input {
   padding-left: 1rem;
   color: #000000;
   background: white;
-  -webkit-box-shadow: inset 1px 1px 5px #858585;
-  box-shadow: inset 1px 1px 5px #858585;
+  -webkit-box-shadow: inset 1px 1px 3px #858585;
+  box-shadow: inset 1px 1px 3px #858585;
 }
 
 body main .fill-up form .details .pass {
@@ -1472,70 +1490,19 @@ body main .fill-up form .details .pass i {
   color: #048a10;
 }
 
-body main .fill-up form .details .check-box {
-  margin-left: 0;
-  margin-top: 1rem;
-  width: 100%;
-  padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+body main .fill-up form button {
+  background-color: transparent;
+  border: none;
   color: white;
-}
-
-body main .fill-up form .details .check-box .check {
-  margin: auto 0.1rem;
-  width: 1rem;
-  height: 1rem;
-  outline: none;
-}
-
-body main .fill-up form .details .check-box a {
-  margin-left: auto;
-  color: white;
-  border-radius: 0.1rem;
-}
-
-body main .fill-up form .details .check-box a:hover {
-  background: linear-gradient(
-    45deg,
-    #048a10,
-    #56ab2f,
-    #a8e063,
-    #f1d742,
-    #ff9966,
-    #ff5e62
-  );
-}
-
-body main .fill-up form .buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  width: 40%;
-  height: 3rem;
-  margin-right: auto;
-  padding: 0.5rem 0;
-}
-
-body main .fill-up form .buttons a {
-  border: 1px solid white;
-  border-radius: 0.1rem;
-  padding: 0.2rem 0.8rem;
+  padding: 0.3rem 0.7rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   text-transform: uppercase;
-  font-weight: 500;
+  border: 1px solid white;
 }
 
-body main .fill-up form .buttons a:hover {
+body main .fill-up form button:hover {
   background: linear-gradient(
     45deg,
     #048a10,
@@ -1545,8 +1512,6 @@ body main .fill-up form .buttons a:hover {
     #ff9966,
     #ff5e62
   );
-  color: #f5f5f5;
-  /*My Account end*/
 }
 
 @media (max-width: 800px) {
@@ -1566,14 +1531,6 @@ body main .fill-up form .buttons a:hover {
 
   body main .fill-up form .details input {
     height: 2.5rem;
-  }
-
-  body main .fill-up form .buttons {
-    width: 100%;
-  }
-
-  body main .fill-up form .buttons a {
-    font-size: 0.8rem;
   }
 }
 

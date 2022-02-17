@@ -5,17 +5,34 @@
     <main>
       <!-- Contact cards  -->
       <section class="main">
-        <!-- <h1>My Account</h1> -->
+      <?php
+        if (isset($_GET['error'])) {
+            
+            if($_GET['error'] == "emptyinputs") {
+                echo "<p class='error'>Fill in all fields!</p>";
+            }
+            else if ($_GET['error'] == "invalidinputs") {
+                echo "<p class='error'>Invalid name inputs!</p>";
+            }
+            else if ($_GET['error'] == "invalidmobile") {
+                echo "<p class='error'>Invalid mobile!</p>";
+            }
+            else if ($_GET['error'] == "error=invalidemail") {
+                echo "<p class='error'>Invalid email!</p>";
+            }
+            else if ($_GET['error'] == "passworderror") {
+                echo "<p class='error'>Passwords do not match!</p>";
+            }
+        }
+    ?>
         <div class="fill-up">
           <div class="wrap">
             <h2>Register</h2>
             <h4>Welcome to BuyNest</h4>
-            <!-- <a href="#"><i class="fab fa-google"></i> Google</a>
-            <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a> -->
-            <form>
+            <form action="../Scripts/register.script.php" method="POST">
               <div class="details">
-                <input type="text" name="first name" placeholder="First Name" />
-                <input type="text" name="last name" placeholder="Last Name" />
+                <input type="text" name="first_name" placeholder="First Name" />
+                <input type="text" name="last_name" placeholder="Last Name" />
                 <input type="tel" name="phone" placeholder="Phone" />
                 <input type="email" name="email" placeholder="Email Address" />
                 <div class="pass">
@@ -28,19 +45,12 @@
                 <div class="pass">
                   <input
                     type="password"
-                    name="password"
+                    name="confirm_password"
                     placeholder="Confirm Password"
                   /><i class="fas fa-eye"></i>
                 </div>
-                <!-- <div class="check-box">
-                  <input class="check" type="checkbox" />Remember Me
-                  <a href="#">Forgot Password</a>
-                </div> -->
               </div>
-              <div class="buttons">
-                <!-- <a href="#">Login</a> -->
-                <a href="#">Register</a>
-              </div>
+              <button type="submit" name="register">Register</button>
             </form>
           </div>
         </div>
@@ -86,15 +96,15 @@
                 <h5>Customer Service</h5>
               </div>
               <div class="fw-link">
-                <li><a href="../Html/contacts.html">Help Center</a></li>
-                <li><a href="../Html/terms and conditions.html">Returns</a></li>
+                <li><a href="../PHP/contacts.php">Help Center</a></li>
+                <li><a href="../PHP/terms and conditions.php">Returns</a></li>
                 <li>
-                  <a href="../Html/terms and conditions.html"
+                  <a href="../PHP/terms and conditions.php"
                     >Product Recalls</a
                   >
                 </li>
-                <li><a href="../Html/about.html">Accessibility</a></li>
-                <li><a href="../Html/contacts.html">Contact Us</a></li>
+                <li><a href="../PHP/about.php">Accessibility</a></li>
+                <li><a href="../PHP/contacts.php">Contact Us</a></li>
               </div>
             </div>
           </div>
@@ -105,16 +115,16 @@
               </div>
               <div class="fw-link">
                 <li>
-                  <a href="../Html/terms and conditions.html">Return Policy</a>
+                  <a href="../PHP/terms and conditions.php">Return Policy</a>
                 </li>
                 <li>
-                  <a href="../Html/terms and conditions.html">Terms Of Use</a>
+                  <a href="../PHP/terms and conditions.php">Terms Of Use</a>
                 </li>
                 <li>
-                  <a href="../Html/terms and conditions.html">Security</a>
+                  <a href="../PHP/terms and conditions.php">Security</a>
                 </li>
-                <li><a href="../Html/terms and conditions.html">Privacy</a></li>
-                <li><a href="../Html/about.html">Store Pickup</a></li>
+                <li><a href="../PHP/terms and conditions.php">Privacy</a></li>
+                <li><a href="../PHP/about.php">Store Pickup</a></li>
               </div>
             </div>
           </div>
@@ -132,7 +142,7 @@
                 <li>
                   <i class="fas fa-envelope-open"></i
                   ><a
-                    href="../../cdn-cgi/l/email-protection.html"
+                    href="../../cdn-cgi/l/email-protection.php"
                     class="__cf_email__"
                     data-cfemail="faa98f8a8a95888eba93949c95d4b99597"
                     >[email&#160;protected]</a
@@ -152,7 +162,7 @@
               <div class="col-lg-6 col-md-6 text">
                 <div class="copyright-text">
                   <p>
-                    Copyright © 2021 <a href="../index.html">BuyNest</a> All
+                    Copyright © 2021 <a href="../index.php">BuyNest</a> All
                     Rights Reserved.
                   </p>
                 </div>

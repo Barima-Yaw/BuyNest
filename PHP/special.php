@@ -8,7 +8,7 @@
             <h3>Top Deal!</h3>
             <h2>Lighting Driftwood</h2>
             <p>Get up to <span>50%</span> off Today Only</p>
-            <a href="../Html/shopSidebar.html">Shop Now</a>
+            <a href="../PHP/shopSidebar.php">Shop Now</a>
           </div>
           <img src="../Images/bg/furniture.jpg" alt="furniture">
         </section>
@@ -39,7 +39,7 @@
             <div>
             <div class="img-box">
                 <img src="../Images/product/f_exclusive_product01.png"/>
-                <a href="./shopSidebar.html">shop now <i class="fas fa-cart-plus"></i></a>
+                <a href="./shopSidebar.php">shop now <i class="fas fa-cart-plus"></i></a>
             </div>
             <div class="product-details">
               <div class="rating">
@@ -55,7 +55,7 @@
             <div>
             <div class="img-box">
                 <img src="../Images/product/f_exclusive_product02.png"/>
-                <a href="./shopSidebar.html">shop now <i class="fas fa-cart-plus"></i></a>
+                <a href="./shopSidebar.php">shop now <i class="fas fa-cart-plus"></i></a>
             </div>
             <div class="product-details">
               <div class="rating">
@@ -71,7 +71,7 @@
             <div>
                 <div class="img-box">
                     <img src="../Images/product/f_exclusive_product03.png"/>
-                <a href="./shopSidebar.html">shop now <i class="fas fa-cart-plus"></i></a>
+                <a href="./shopSidebar.php">shop now <i class="fas fa-cart-plus"></i></a>
                 </div>
             <div class="product-details">
               <div class="rating">
@@ -87,7 +87,7 @@
             <div>
                 <div class="img-box">
                     <img src="../Images/product/f_exclusive_product04.png"/>
-                    <a href="./shopSidebar.html">shop now <i class="fas fa-cart-plus"></i></a>
+                    <a href="./shopSidebar.php">shop now <i class="fas fa-cart-plus"></i></a>
                 </div>
             <div class="product-details">
               <div class="rating">
@@ -103,7 +103,7 @@
             <div>
                 <div class="img-box">
                     <img src="../Images/product/f_exclusive_product05.png"/>
-                    <a href="./shopSidebar.html">shop now <i class="fas fa-cart-plus"></i></a>
+                    <a href="./shopSidebar.php">shop now <i class="fas fa-cart-plus"></i></a>
                 </div>
             <div class="product-details">
               <div class="rating">
@@ -119,7 +119,7 @@
             <div>
                 <div class="img-box">
                     <img src="../Images/product/f_exclusive_product06.png"/>
-                    <a href="./shopSidebar.html">shop now <i class="fas fa-cart-plus"></i></a>
+                    <a href="./shopSidebar.php">shop now <i class="fas fa-cart-plus"></i></a>
                 </div>
             <div class="product-details">
               <div class="rating">
@@ -135,7 +135,7 @@
             <div>
                 <div class="img-box">
                     <img src="../Images/product/f_exclusive_product07.png"/>
-                    <a href="./shopSidebar.html">shop now <i class="fas fa-cart-plus"></i></a>
+                    <a href="./shopSidebar.php">shop now <i class="fas fa-cart-plus"></i></a>
                 </div>
             <div class="product-details">
               <div class="rating">
@@ -151,7 +151,7 @@
             <div>
                 <div class="img-box">
                     <img src="../Images/product/f_exclusive_product08.png"/>
-                    <a href="./shopSidebar.html">shop now <i class="fas fa-cart-plus"></i></a>
+                    <a href="./shopSidebar.php">shop now <i class="fas fa-cart-plus"></i></a>
                 </div>
             <div class="product-details">
               <div class="rating">
@@ -182,7 +182,7 @@
                     <p>Laptops</p>
                     <p>Snow Frost Freezer</p>
 
-                    <a href="./shopSidebar.html">View All</a>
+                    <a href="./shopSidebar.php">View All</a>
                 </div>
                 </div>
                 <div class="plaq"><img src="../Images/product/bs_cat02.png">
@@ -193,7 +193,7 @@
                     <p>Electric Cooker</p>
                     <p>Cooking Utensils</p>
 
-                    <a href="./shopSidebar.html">View All</a>
+                    <a href="./shopSidebar.php">View All</a>
                 </div>
                 </div>
                 <div class="plaq"><img src="../Images/product/bs_cat03.png">
@@ -204,7 +204,7 @@
                     <p>Footwear</p>
                     <p>Jewelry</p>
 
-                    <a href="./shopSidebar.html">View All</a>
+                    <a href="./shopSidebar.php">View All</a>
                 </div>
                 </div>
                 <div class="plaq"><img src="../Images/product/bs_cat04.png">
@@ -215,7 +215,7 @@
                     <p>Toys</p>
                     <p>Baby Cosmetics</p>
 
-                    <a href="./shopSidebar.html">View All</a>
+                    <a href="./shopSidebar.php">View All</a>
                 </div>
                 </div>
             </div>
@@ -351,7 +351,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="footer-widget mb-50">
               <div class="footer-logo mb-30">
-                <a href="../index.html"
+                <a href="../index.php"
                   ><img src="../Images/logo/IMG_7328 - Copy1.heic" alt=""
                 /></a>
               </div>
@@ -376,11 +376,11 @@
                 <h5>Customer Service</h5>
               </div>
               <div class="fw-link">
-                <li><a href="../Html/contacts.html">Help Center</a></li>
-                <li><a href="../Html/terms and conditions.html">Returns</a></li>
-                <li><a href="../Html/terms and conditions.html">Product Recalls</a></li>
-                <li><a href="../Html/about.html">Accessibility</a></li>
-                <li><a href="../Html/contacts.html">Contact Us</a></li>
+                <li><a href="../PHP/contacts.php">Help Center</a></li>
+                <li><a href="../PHP/terms and conditions.php">Returns</a></li>
+                <li><a href="../PHP/terms and conditions.php">Product Recalls</a></li>
+                <li><a href="../PHP/about.php">Accessibility</a></li>
+                <li><a href="../PHP/contacts.php">Contact Us</a></li>
               </div>
             </div>
           </div>
@@ -390,11 +390,11 @@
                 <h5>Quick Links</h5>
               </div>
               <div class="fw-link">
-                <li><a href="../Html/terms and conditions.html">Return Policy</a></li>
-                <li><a href="../Html/terms and conditions.html">Terms Of Use</a></li>
-                <li><a href="../Html/terms and conditions.html">Security</a></li>
-                <li><a href="../Html/terms and conditions.html">Privacy</a></li>
-                <li><a href="../Html/about.html">Store Pickup</a></li>
+                <li><a href="../PHP/terms and conditions.php">Return Policy</a></li>
+                <li><a href="../PHP/terms and conditions.php">Terms Of Use</a></li>
+                <li><a href="../PHP/terms and conditions.php">Security</a></li>
+                <li><a href="../PHP/terms and conditions.php">Privacy</a></li>
+                <li><a href="../PHP/about.php">Store Pickup</a></li>
               </div>
             </div>
           </div>
@@ -412,7 +412,7 @@
                 <li>
                   <i class="fas fa-envelope-open"></i
                   ><a
-                    href="../../cdn-cgi/l/email-protection.html"
+                    href="../../cdn-cgi/l/email-protection.php"
                     class="__cf_email__"
                     data-cfemail="faa98f8a8a95888eba93949c95d4b99597"
                     >[email&#160;protected]</a
@@ -432,7 +432,7 @@
               <div class="col-lg-6 col-md-6 text">
                 <div class="copyright-text">
                   <p>
-                    Copyright © 2021 <a href="../index.html">BuyNest</a> All Rights Reserved.
+                    Copyright © 2021 <a href="../index.php">BuyNest</a> All Rights Reserved.
                   </p>
                 </div>
               </div>
